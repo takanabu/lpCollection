@@ -1,0 +1,10 @@
+window.onload = function() {
+    const menuToggle = document.querySelector(".toggle");
+    const showcase = document.querySelector(".showcase");
+
+    menuToggle.addEventListener("click", function() {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+    });
+}
+
