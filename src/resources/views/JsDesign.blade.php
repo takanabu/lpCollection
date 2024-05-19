@@ -29,8 +29,50 @@
 
         <!-- information section -->
         <div class="information">
-            
+            <div class="overlay">
+                <img src="./img/pc.png" class="pc"/>
+                <div id="circle">
+                    <div class="feature one">
+                        <img src="./img/camera.png" alt="">
+                        <div>
+                            <h1>camera</h1>
+                            <p>Beautiful lens.</p>
+                        </div>
+                    </div>
+                    <div class="feature two">
+                        <img src="./img/processor.png" alt="">
+                        <div>
+                            <h1>processor</h1>
+                            <p>Processor is very important.</p>
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        <img src="./img/battery.png" alt="">
+                        <div>
+                            <h1>Battery</h1>
+                            <p>Battery is Powerful.</p>
+                        </div>
+                    </div>
+                    <div class="feature four">
+                        <img src="./img/display.png" alt="">
+                        <div>
+                            <h1>Display</h1>
+                            <p>Beautiful display.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- control section -->
+        <div class="control">
+            <img src="./img/arrow.png" id="upBtn">
+            <h3>Feature</h3>
+            <img src="./img/arrow.png" id="downBtn">
         </div>
     </div>
+
+    <script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>
