@@ -336,6 +336,143 @@
             </div>
         </section>
 
+        <!-- blog section -->
+        <section id="blog" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">Blog</h6>
+                        <h1>Latest News From The Blog</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, voluptatibus.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                  <div class="col-md-4">
+                    <div class="blog-card card-effect">
+                      <img src="./img/bs5website/blog1.jpg" alt="">
+                      <h5 class="mb-0 mt-4">
+                        <a href="#">Designing smart and slick Bootstrap 5 Website</a>
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, assumenda.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="blog-card card-effect">
+                      <img src="./img/bs5website/blog2.jpg" alt="">
+                      <h5 class="mb-0 mt-4">
+                        <a href="#">Designing smart and slick Bootstrap 5 Website</a>
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, assumenda.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="blog-card card-effect">
+                      <img src="./img/bs5website/blog3.jpg" alt="">
+                      <h5 class="mb-0 mt-4">
+                        <a href="#">Designing smart and slick Bootstrap 5 Website</a>
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, assumenda.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section id="contact" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="text-primary">Contact</h6>
+                        <h1>Get In Touch</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, voluptatibus.
+                        </p>
+                    </div>
+                </div>
+
+                <form action="" class="row g-3 justify-content-center">
+                  <div class="col-md-5">
+                    <input
+                      type="text"
+                      class="form-control" placeholder="Full Name">
+                  </div>
+                  <div class="col-md-5">
+                    <input
+                      type="text"
+                      class="form-control" placeholder="Enter E-mail">
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text"
+                      class="form-control"
+                      placeholder="Enter subject">
+                  </div>
+                  <div class="col-md-10">
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="5"
+                      class="form-control"
+                      placeholder="Enter Message">
+                    </textarea>
+                  </div>
+                  <div class="col-md-10 d-grid">
+                    <button class="btn btn-primary">Contact</button>
+                  </div>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer>
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2 class="text-white">Bootstrap5</h2>
+                </div>
+                <div class="col-md-2">
+                  <h5 class="text-white">Brand</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <h5 class="text-white">More</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">FAQ&'s</a></li>
+                    <li><a href="#">Privacy $ Policy</a></li>
+                    <li><a href="#">Warrantry</a></li>
+                    <li><a href="#">Shipment</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5 class="text-white">Pages</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Address: 2715 Ash Dr. San Jose, South Dakota 83475</a></li>
+                    <li><a href="#">Email: @gmail.com</a></li>
+                    <li><a href="#">Phone: 111-222-333</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
