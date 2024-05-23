@@ -199,3 +199,28 @@ img {
     color: var(--primary);
     background-color: transparent;
 }
+
+/* contact section */
+form input.form-control {
+    height: 56px;
+}
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.04);
+}
+
+.footer-top {
+    background-color: var(--dark);
+    padding: 98px;
+    padding-bottom: 90px;
+}
+
+.footer-top a {
+    color: var(--body)
+}
+
+.footer-top a:hover {
+    color: #fff;
+}
