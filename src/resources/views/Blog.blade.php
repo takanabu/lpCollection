@@ -93,7 +93,7 @@
         <aside>
             <section class="author">
                 <img src="./img/blog/MabuGaku.png" alt="">
-                <h4>Mabu GAku</h4>
+                <h4>Mabu_Gaku</h4>
                 <p>
                     コーチテックのプログラミング講座卒業後
                 </p>
