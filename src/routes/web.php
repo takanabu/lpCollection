@@ -24,6 +24,9 @@ Route::get('/blog',
 Route::get('/',
 [HomeController::class, 'index']);
 
+Route::get('/privacy-policy',
+[HomeController::class, 'privacyPolicy']);
+
 
 
 
