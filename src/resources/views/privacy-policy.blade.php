@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>プライバシーポリシー・免責事項</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/privacy-plicy.css">
+    <link rel="stylesheet" href="css/privacy-policy.css">
 </head>
-<body>
+<body id="nofont-style">
     <div id="container">
         <header></header>
     </div>
@@ -15,7 +15,8 @@
     <div id="content">
         <div id="inner-content">
             <main id="main">
-                <article>
+                <div class="cps-post-main  jin-h4-icons jin-checkcircleicon-h4 h2-style03 h3-style01 h4-style04 entry-content xl-size l-size-sp" itemprop="articleBody">
+                    <article>
                     <section>
                         <h1>
                             プライバシーポリシー・免責事項
@@ -24,8 +25,8 @@
                             本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
                         </p>
                     </section>
-                </article>
-                <article>
+                    </article>
+                    <article>
                     <section>
                         <h2>
                             当ブログの運営者情報
@@ -41,8 +42,8 @@
                             <br>
                         </p>
                     </section>
-                </article>
-                <article>
+                    </article>
+                    <article>
                     <section>
                         <h2>
                             当ブログのプライバシーポリシー
@@ -237,8 +238,8 @@
                             ただし、当ブログに掲載されている画像への直リンクや、インラインフレームによる当ブログのコンテンツの使用はご遠慮ください。
                         </p>
                     </section>
-                </article>
-                <article>
+                    </article>
+                    <article>
                     <section>
                         <h2>
                             当ブログの免責事項
@@ -280,8 +281,8 @@
                             予めご了承下さい。
                         </p>
                     </section>
-                </article>
-                <article>
+                    </article>
+                    <article>
                     <section>
                         <h2>
                             当ブログのプライバシーポリシー・免責事項の変更について
@@ -293,7 +294,8 @@
                             修正された最新のプライバシーポリシーと免責事項は常に本ページにて開示されます。
                         </p>
                     </section>
-                </article>
+                    </article>
+                </div>
             </main>
         </div>
     </div>
