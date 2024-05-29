@@ -7,6 +7,12 @@
     font-family: "Poppins", sans-serif;
 }
 
+p,ol,ul {
+    line-height: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 #content {
     padding: 30px 40px;
     letter-spacing: 2px;
@@ -55,7 +61,17 @@ h2::before {
     z-index: 999;
 }
 
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
 
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
 
 
 
