@@ -85,6 +85,10 @@ article a::after {
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+        padding-top: 150px;
+        margin-bottom: 70px;
+        text-align: center;
 }
 
 main {

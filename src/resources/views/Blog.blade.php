@@ -22,78 +22,63 @@
         </nav>
     </header>
 
-    <div class="new-article wrapper">
-        <article>
-            <img src="./img/blog/pc01.jpg" alt="">
-            <p>半年間で６９万円のプログラミング教室の受講料は高かった？安かった？</p>
-            <div><a href="#">もっと読む</a></div>
-        </article>
-        <article>
-            <img src="./img/blog/pc02.jpg" alt="">
-            <p>プログラミング未経験の４５歳がプログラミング教室を卒業してその後は</p>
-            <div><a href="#">もっと読む</a></div>
-        </article>
-        <article>
-            <img src="./img/blog/pc03.jpg" alt="">
-            <p>プログラミングで食べていくというのは短距離走ではなくマラソンだったのか？</p>
-            <div><a href="#">もっと読む</a></div>
-        </article>
-    </div>
-    <div class="container wrapper">
-        <main>
-            <article>
-                <h1>フロントエンドの最新技術</h1>
-                <ul>
-                    <li>2022/01/15</li>
-                    <li>カテゴリ</li>
+    <div id="contents">
+        <main id=main-contents>
+            <div id=main-top>
+                <div id=main-top-bottom></div>
+                    <div class=main-top-text>
+                        <p style="text-align: left; font-size: 80%">当サイトはアフィリエイト広告を利用しています</p>
+                    </div>
+                </div>
+            </div>
+            <div class="toppost-list-box">
+                <input type="radio" name="switch" id="tab-1" checked>
+                <input type="radio" name="switch" id="tab-2">
+                <input type="radio" name="switch" id="tab-3">
+                <input type="radio" name="switch" id="tab-4">
+                <input type="radio" name="switch" id="tab-5">
+                <ul class=tabBtn-mag>
+                    <li>
+                        <label for="tab-1">最新記事</label>
+                    </li>
+                    <li>
+                        <label for="tab-2">サイト作成方法</label>
+                    </li>
+                    <li>
+                        <label for="tab-3">４５歳から始めたプログラミング</label>
+                    </li>
+                    <li>
+                        <label for="tab-4">プログラミング教室どうだった？</label>
+                    </li>
                 </ul>
-                <img src="./img/blog/pc01.jpg" alt="">
-                <div class="article-intro">
-                    <p>
-                    最新のフロントエンド技術について思うこと。
-                    </p>
+            </div>
+            <div class="toppost-list-box-inner">
+                <div class="post-list-mag autoheight">
+                    <article class="post-list-item">
+                        <a class="post-list-link">
+                            <div class="post-list-inner">
+                                <div class="post-list-thumb">
+                                    <img src="" class="" alt="" decoding="" fetchpriority="" data-srcset="" data-sizes="" data-eio-rwidth="" data-eio-rheight="" sizes="" srcset="">
+                                    <noscript>
+                                        "<img src="" class="" decoding="async" fetchpriority="high" sizes="" data-eio="l" />"
+                                    </noscript>
+                                </div>
+                                <div class="post-list-meta vcard">
+                                    <span class="post-list-cat category-specialzedblog" syyle="" >
+
+                                    </span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </article>
                 </div>
-                <div>
-                    <a href="#">もっと読む</a>
-                </div>
-            </article>
-            <article>
-                <h1>フロントエンドの最新技術</h1>
-                <ul>
-                    <li>2022/01/15</li>
-                    <li>カテゴリ</li>
-                </ul>
-                <img src="./img/blog/pc01.jpg" alt="">
-                <div class="article-intro">
-                    <p>
-                    最新のフロントエンド技術について思うこと。
-                    </p>
-                </div>
-                <div>
-                    <a href="#">もっと読む</a>
-                </div>
-            </article>
-            <article>
-                <h1>フロントエンドの最新技術</h1>
-                <ul>
-                    <li>2022/01/15</li>
-                    <li>カテゴリ</li>
-                </ul>
-                <img src="./img/blog/pc01.jpg" alt="">
-                <div class="article-intro">
-                    <p>
-                    最新のフロントエンド技術について思うこと。
-                    </p>
-                </div>
-                <div>
-                    <a href="#">もっと読む</a>
-                </div>
-            </article>
+            </div>
         </main>
         <aside>
             <section class="author">
                 <img src="./img/blog/MabuGaku.png" alt="">
-                <h4>Mabu_Gaku</h4>
+                <h4>Gacu</h4>
                 <p>
                     コーチテックのプログラミング講座卒業後
                 </p>
