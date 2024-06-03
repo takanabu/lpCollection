@@ -83,40 +83,6 @@
                     コーチテックのプログラミング講座卒業後
                 </p>
             </section>
-            <section class="ranking">
-                <h4>ランキング</h4>
-                <div class="ranking-article">
-                    <a href="#">
-                        <img src="./img/blog/pc01.jpg" alt="">
-                        <p>HTML/CSS入門</p>
-                    </a>
-                </div>
-                <div class="ranking-article">
-                    <a href="#">
-                        <img src="./img/blog/pc02.jpg" alt="">
-                        <p>Javascript入門</p>
-                    </a>
-                </div>
-                <div class="ranking-article">
-                    <a href="#">
-                        <img src="./img/blog/pc01.jpg" alt="">
-                        <p>Python入門</p>
-                    </a>
-                </div>
-            </section>
-            <section class="archive">
-                <h4>アーカイブ</h4>
-                <ul>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                    <li><a href="#">2022/01/25(XX日)</a></li>
-                </ul>
-            </section>
         </aside>
     </div>
 </body>
