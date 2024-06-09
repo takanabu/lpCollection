@@ -1,48 +1,13 @@
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-ol,
-dl,
-dt,
-dd,
-div,
-span,
-img,
-a,
-table,
-tr,
-th,
-td,
-article,
-figure {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-body {
-    font-family: "Zen Kaku Gothic New", sans-serif;
-}
-
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-body#nofont-style {
-    font-family: 'ヒラギノ角ゴ ProN W3', Hiragino Sans, 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
-}
 
 /* header */
+
+header {
+    width: 100%;
+    position: relative;
+    height: 60px;
+    z-index: 100;
+    background-color: white;
+}
 
 img {
     width: 95%;
@@ -52,13 +17,6 @@ img {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 16px;
-}
-
-header {
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    background-color: white;
 }
 
 header h2 {
@@ -93,33 +51,59 @@ header ul li a {
 
 /* contents */
 
-@media (min-width: 835px) and (max-width: 1199px) {
-    #contents {
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) {
-    #contents {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-}
-
 #contents {
-    padding-top: 10px;
-    margin: 0 auto;
+    margin-top: 120px;
+}
+
+p.ad {
+    padding-left: 50px;
+}
+
+.top-tab {
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+
+.top-tab li {
+    padding: 15px 68px;
+    margin-left: 2px;
+    text-align: center;
+    background: #f1f4f4;
+    margin-bottom: 3px;
+    color: black;
+    font-size: 14px;
+    font: bold;
+    display: block;
+    padding-left: -2px;
 }
 
 
+/* article */
 
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+}
 
+.practice__card {
+    width: 30%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
 
+.card__img img {
+    width: 100%;
+}
 
+.card__content {
+    padding: 15px 25px;
+}
 
-
-
-
+.card__ttl {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
 
 
