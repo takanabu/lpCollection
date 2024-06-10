@@ -82,28 +82,49 @@ p.ad {
 
 /* article */
 
+        /* 横幅めいいっぱいのボックス四角い枠 親要素*/
 .flex__item {
     display: flex;
     justify-content: space-between;
 }
 
+        /* flex__itemの子要素　四角い枠 */
 .practice__card {
-    width: 30%;
+    width: 40%;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+        /* practice__cardの子要素　画像 */
 .card__img img {
     width: 100%;
 }
 
+        /* practice__cardの子要素　画像の下の文字スペース四角 */
 .card__content {
     padding: 15px 25px;
 }
 
+        /* card__contentの子要素　カテゴリーの四角枠 */
+.card__cat {
+    padding: 5px 10px;
+    background: yellow;
+    color: blue;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+        /* card__contentの子要素　タイトル */
 .card__ttl {
     font-size: 18px;
     margin-bottom: 30px;
     font-weight: 400;
 }
 
+        /* タグと日付の親要素枠 */
+.tag {
+    font-size: 14px;
+    text-align: right;
+}
 
