@@ -55,7 +55,7 @@
                     <div class="flex__item">
                         <div class="practice__card">
                             <div class="card__img">
-                                <img src="img/card.jpg" alt="">
+                                <img src="/img/blog/pc01.jpg" alt="">
                             </div>
                             <div class="card__content">
                                 <div class="card__cat">
@@ -64,6 +64,14 @@
                                 <h2 class="card__ttl">
                                     記事のタイトル
                                 </h2>
+                                <div class="tag">
+                                    <p class="card__tag">
+                                        #プログラミング教室
+                                    </p>
+                                    <p class="card__date">
+                                        2024/06/10
+                                    </p>
+                                </div>
                             </div>
 
                         </div>
