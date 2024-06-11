@@ -128,3 +128,14 @@ p.ad {
     text-align: right;
 }
 
+        /* .tagの子要素 */
+.card__tag {
+    display: inline-block;
+    color: #008888;
+}
+
+.card__date {
+    display: inline-block;
+    margin-left: 20px;
+    color: #888888;
+}
