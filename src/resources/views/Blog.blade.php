@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>エンジニアブログ</title>
+    <title>エンジニアのブログ</title>
     <link rel="stylesheet" href="{{ asset('css/Blog.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Tiny5&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+    </style>
+
 </head>
 <body class="home blog" id="nofont-style">
     <div id="wrapper">
@@ -16,14 +20,15 @@
                         <div id="site-info" class="ef">
                             <span class="tn-logo-size">
                                 <div class="wrapper">
-                                    <h2>エンジニアのブログ</h2>
+                                    <h2>ぼうけんのしょ</h2>
                                 </div>
                                 <nav>
                                     <ul class="wrapper">
-                                        <li><a href="#">ホーム</a></li>
-                                        <li><a href="#">コラム</a></li>
-                                        <li><a href="#">カテゴリ</a></li>
-                                        <li><a href="#">コンタクト</a></li>
+                                        <li><a href="#">ほーむ</a></li>
+                                        <li><a href="#">ぼうけんのりれき</a></li>
+                                        <li><a href="#">レベルあげのりれき</a></li>
+                                        <li><a href="#">おぼえたまほう</a></li>
+                                        <li><a href="#">かくとくゴールド</a></li>
                                     </ul>
                                 </nav>
                             </span>
@@ -33,113 +38,113 @@
             </div>
             <div id="contents">
                 <main>
-                    <p class="ad">
-                        当サイトはアフィリエイト広告を利用しています
-                    </p>
-                    <ul class="top-tab">
-                        <li>
-                            <label for="tab-1">最新記事</label>
-                        </li>
-                        <li>
-                            <label for="tab-2">最新記事</label>
-                        </li>
-                        <li>
-                            <label for="tab-3">最新記事</label>
-                        </li>
-                        <li>
-                            <label for="tab-4">最新記事</label>
-                        </li>
-                    </ul>
+                    <div class="top-talk">
+                        <div class="top-talk__card1">
+                            <div class="card1__item">
+                                <div class="item__white-border">
+                                    <div class="white-border__black-border">
+                                        <p class="black-border__content">
+                                            ＊「ここは　てんしょくの　しんでん。<br>　　しょくぎょうを　かえたいものが<br>　　くるところじゃ。<br>
+                                            <br>
+                                            ＊「てんしょくを　ごきぼうかな？
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-talk__card2">
+                            <div class="card2__item2">
+                                <div class="item2__white-border2">
+                                    <div class="white-border2__black-border2">
+                                        <p class="black-border2__content">
+                                            　➧ はい
+                                            <br>　　いいえ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                        </div>
+                        <div class="top-talk__card3">
+                            <div class="card3__item3">
+                                <div class="item3__white-border3">
+                                    <div class="white-border3__black-border3">
+                                        <p class="black-border3__content">
+                                            ＊「なりたいのは　どの　しょくぎょう<br>　　じゃな？
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-talk__card4">
+                            <div class="card4__item4">
+                                <div class="item4__white-border4">
+                                    <div class="white-border4__black-border4">
+                                        <p class="black-border4__content">
+                                            　➧ まほうつかい
+                                            <br>　　(プログラマー)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                        </div>
+                        <div class="top-talk__card5">
+                            <div class="card5__item5">
+                                <div class="item5__white-border5">
+                                    <div class="white-border5__black-border5">
+                                        <p class="black-border5__content">
+                                            ＊「ねんれいは？
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-talk__card6">
+                            <div class="card6__item6">
+                                <div class="item6__white-border6">
+                                    <div class="white-border6__black-border6">
+                                        <p class="black-border6__content">
+                                            　４６さいです！
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                        </div>
+                        <div class="top-talk__card7">
+                            <div class="card7__item7">
+                                <div class="item7__white-border7">
+                                    <div class="white-border7__black-border7">
+                                        <p class="black-border7__content">
+                                            ＊「むりじゃ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-talk__card8">
+                            <div class="card8__item8">
+                                <div class="item8__white-border8">
+                                    <div class="white-border8__black-border8">
+                                        <p class="black-border8__content">
+                                            　え・・・・。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                        </div>
 
 
-                    <div class="flex__item">
-                        <div class="practice__card">
-                            <div class="card__img">
-                                <img src="/img/blog/pc01.jpg" alt="">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__cat">
-                                    カテゴリー
-                                </div>
-                                <h2 class="card__ttl">
-                                    記事のタイトル
-                                </h2>
-                                <div class="tag">
-                                    <p class="card__tag">
-                                        #プログラミング教室
-                                    </p>
-                                    <p class="card__date">
-                                        2024/06/10
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="practice__card">
-                            <div class="card__img">
-                                <img src="/img/blog/pc01.jpg" alt="">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__cat">
-                                    カテゴリー
-                                </div>
-                                <h2 class="card__ttl">
-                                    記事のタイトル
-                                </h2>
-                                <div class="tag">
-                                    <p class="card__tag">
-                                        #プログラミング教室
-                                    </p>
-                                    <p class="card__date">
-                                        2024/06/10
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="practice__card">
-                            <div class="card__img">
-                                <img src="/img/blog/pc01.jpg" alt="">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__cat">
-                                    カテゴリー
-                                </div>
-                                <h2 class="card__ttl">
-                                    記事のタイトル
-                                </h2>
-                                <div class="tag">
-                                    <p class="card__tag">
-                                        #プログラミング教室
-                                    </p>
-                                    <p class="card__date">
-                                        2024/06/10
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="practice__card">
-                            <div class="card__img">
-                                <img src="/img/blog/pc01.jpg" alt="">
-                            </div>
-                            <div class="card__content">
-                                <div class="card__cat">
-                                    カテゴリー
-                                </div>
-                                <h2 class="card__ttl">
-                                    記事のタイトル
-                                </h2>
-                                <div class="tag">
-                                    <p class="card__tag">
-                                        #プログラミング教室
-                                    </p>
-                                    <p class="card__date">
-                                        2024/06/10
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
 
                     </div>
+                    
                 </main>
+                <sidebar>
+                    
+                </sidebar>
             </div>
         </div>
     </div>
