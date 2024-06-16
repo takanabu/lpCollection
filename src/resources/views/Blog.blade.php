@@ -135,12 +135,38 @@
                             </div>
                             <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
                         </div>
-
-
-
-
                     </div>
-                    
+                    <div class="beginning">
+                        <div class=beginning__card>
+                            <p class=card__title>
+                                　そして　ぼうけんが　はじまった！<br><br>　　いまから　すうかげつ　まえ・・・。
+                            </p>
+                        </div>
+                        <div class="beginning__card-1">
+                            <div class="card-1__item-1">
+                                <div class="item-1__white-border-1">
+                                    <div class="white-border-1__black-border-1">
+                                        <p class="black-border-1__content">
+                                            　はい
+                                            <br>　　いいえ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                            <div class="card-right__item-right">
+                                <div class="item-right__white-border-right">
+                                    <div class="white-border-right__black-border-right">
+                                        <p class="black-border-right__content">
+                                            　はい
+                                            <br>　　いいえ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </main>
                 <sidebar>
                     
