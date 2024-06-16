@@ -1,3 +1,11 @@
+body {
+    font-family: "Zen Kaku Gothic New",
+        sans-serif;
+}
+
+
+
+
 
 /* header */
 
@@ -28,7 +36,7 @@ header h2 {
 
 header nav {
     width: 100%;
-    background-color: black;
+    background-color: rgb(28, 7, 134);
     padding-bottom: 10px;
     padding-left: 20px;
 }
@@ -49,93 +57,436 @@ header ul li a {
 }
 
 
-/* contents */
+/* top-talk */
+/* top-talk__card1 */
 
-#contents {
-    margin-top: 120px;
+.top-talk {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
-p.ad {
-    padding-left: 50px;
-}
-
-.top-tab {
-    display: inline-flex;
-    width: 100%;
-    padding: 0;
-    list-style-type: none;
-}
-
-.top-tab li {
-    padding: 15px 68px;
-    margin-left: 2px;
-    text-align: center;
-    background: #f1f4f4;
-    margin-bottom: 3px;
-    color: black;
-    font-size: 14px;
-    font: bold;
-    display: block;
-    padding-left: -2px;
-}
-
-
-/* article */
-
-        /* 横幅めいいっぱいのボックス四角い枠 親要素*/
-.flex__item {
+.top-talk__card1 {
     display: flex;
     justify-content: space-between;
 }
 
-        /* flex__itemの子要素　四角い枠 */
-.practice__card {
-    width: 40%;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+.card1__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin-top: 120px;
 }
 
-        /* practice__cardの子要素　画像 */
-.card__img img {
-    width: 100%;
+.item__white-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 394px;
+    height: 194px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
 }
 
-        /* practice__cardの子要素　画像の下の文字スペース四角 */
-.card__content {
-    padding: 15px 25px;
+.white-border__black-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 383px;
+    height: 183px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+.black-border__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
 }
 
-        /* card__contentの子要素　カテゴリーの四角枠 */
-.card__cat {
-    padding: 5px 10px;
-    background: yellow;
-    color: blue;
-    margin-bottom: 15px;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 30px;
+
+/* top-talk__card2 */
+
+.top-talk__card2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 350px;
 }
 
-        /* card__contentの子要素　タイトル */
-.card__ttl {
-    font-size: 18px;
-    margin-bottom: 30px;
-    font-weight: 400;
+.card2__item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 125px;
+    height: 120px;
+    margin-left: 150px;
 }
 
-        /* タグと日付の親要素枠 */
-.tag {
-    font-size: 14px;
-    text-align: right;
+.item2__white-border2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 119px;
+    height: 114px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
 }
 
-        /* .tagの子要素 */
-.card__tag {
-    display: inline-block;
-    color: #008888;
+.white-border2__black-border2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 110px;
+    height: 105px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+.black-border2__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
 }
 
-.card__date {
-    display: inline-block;
+.card2__icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
     margin-left: 20px;
-    color: #888888;
 }
+
+
+/* top-talk__card3 */
+
+.top-talk__card3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card3__item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 405px;
+    height: 125px;
+}
+
+.item3__white-border3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 399px;
+    height: 119px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
+}
+
+.white-border3__black-border3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 388px;
+    height: 108px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+
+.black-border3__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
+}
+
+
+/* top-talk__card4 */
+
+.top-talk__card4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.card4__item4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 200px;
+    height: 120px;
+    margin-left: 150px;
+}
+
+.item4__white-border4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 194px;
+    height: 114px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
+}
+
+.white-border4__black-border4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 185px;
+    height: 105px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+
+.black-border4__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
+}
+
+.card2__icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/* top-talk__card5 */
+
+.top-talk__card5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card5__item5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 210px;
+    height: 100px;
+}
+
+.item5__white-border5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 204px;
+    height: 96px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
+}
+
+.white-border5__black-border5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 193px;
+    height: 85px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+
+.black-border5__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
+}
+
+
+/* top-talk__card6 */
+
+.top-talk__card6 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.card6__item6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.item6__white-border6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 194px;
+    height: 96px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
+}
+
+.white-border6__black-border6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 185px;
+    height: 85px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+
+.black-border6__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
+}
+
+.card2__icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/* top-talk__card7 */
+
+.top-talk__card7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card7__item7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 210px;
+    height: 100px;
+}
+
+.item7__white-border7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 204px;
+    height: 96px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
+}
+
+.white-border7__black-border7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 193px;
+    height: 85px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+
+.black-border7__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
+}
+
+
+/* top-talk__card8 */
+
+.top-talk__card8 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.card8__item8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.item8__white-border8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 194px;
+    height: 96px;
+    border-radius: 4px;
+    z-index: 700;
+    position: relative;
+}
+
+.white-border8__black-border8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 185px;
+    height: 85px;
+    border-radius: 4px;
+    z-index: 800;
+    position: relative;
+}
+
+.black-border8__content {
+    color: white;
+    font-size: 20px;
+    z-index: 900;
+    position: relative;
+}
+
+.card2__icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
