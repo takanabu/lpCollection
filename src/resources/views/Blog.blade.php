@@ -16,7 +16,23 @@
         <div id="scroll-content" class="animate">
             <div id="header-box" class="tn_on header-box animate">
                 <div id="header" class="header-type1 header animate">
-                    <header>
+                    <header class="header">
+                        <h1 class="header-ttl">
+                            <a href="index.html">冒険の書</a>
+                        </h1>
+                        <nav class="header-nav">
+                            <ul class="header-nav-list">
+                                <li class="header-nav-item"><a href="index.html">ほーむ</a>
+
+                                </li>
+
+                            </ul>
+                        </nav>
+
+
+
+
+
                         <div id="site-info" class="ef">
                             <span class="tn-logo-size">
                                 <div class="wrapper">
@@ -37,14 +53,15 @@
                 </div>
             </div>
             <div id="contents">
-                <main>
-                    <div class="top-talk">
-                        <div class="top-talk__card1">
-                            <div class="card1__item">
-                                <div class="item__white-border">
-                                    <div class="white-border__black-border">
-                                        <p class="black-border__content">
-                                            ＊「ここは　てんしょくの　しんでん。<br>　　しょくぎょうを　かえたいものが<br>　　くるところじゃ。<br>
+                <main class="main">
+                    <article class="content">
+                        <div class="top-talk">
+                            <div class="top-talk__card1">
+                                <div class="card1__item">
+                                    <div class="item__white-border">
+                                        <div class="white-border__black-border">
+                                            <p class="black-border__content">
+                                                ＊「ここは　てんしょくの　しんでん。<br>　　しょくぎょうを　かえたいものが<br>　　くるところじゃ。<br>
                                             <br>
                                             ＊「てんしょくを　ごきぼうかな？
                                         </p>
@@ -135,25 +152,24 @@
                             </div>
                             <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
                         </div>
-                    </div>
-                    <div class="beginning">
-                        <div class=beginning__card>
-                            <p class=card__title>
-                                　そして　ぼうけんが　はじまった！<br><br>　　いまから　すうかげつ　まえ・・・。
-                            </p>
-                        </div>
-                        <div class="beginning__card-1">
-                            <div class="card-1__item-1">
-                                <div class="item-1__white-border-1">
-                                    <div class="white-border-1__black-border-1">
-                                        <p class="black-border-1__content">
-                                            　はい
+                        <div class="beginning">
+                            <div class=beginning__card>
+                                <p class=card__title>
+                                    　そして　ぼうけんが　はじまった！<br><br>　　いまから　すうかげつ　まえ・・・。
+                                </p>
+                            </div>
+                            <div class="beginning__card-1">
+                                <div class="card-1__item-1">
+                                    <div class="item-1__white-border-1">
+                                        <div class="white-border-1__black-border-1">
+                                            <p class="black-border-1__content">
+                                                　はい
                                             <br>　　いいえ
-                                        </p>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                                <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
                             <div class="card-right__item-right">
                                 <div class="item-right__white-border-right">
                                     <div class="white-border-right__black-border-right">
@@ -165,12 +181,14 @@
                                 </div>
                             </div>
                         </div>
-                        
-                    </div>
+                    </article>
+                    <aside class="sidebar">
+                        サイドバー
+                    </aside>
                 </main>
-                <sidebar>
-                    
-                </sidebar>
+                <footer class="footer">
+                    フッター
+                </footer>
             </div>
         </div>
     </div>
