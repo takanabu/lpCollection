@@ -5,17 +5,37 @@ body {
 
 
 
-
-
-/* header */
-
-header {
+.header {
     width: 100%;
     position: relative;
     height: 60px;
     z-index: 100;
     background-color: white;
 }
+
+.main {
+    height: 600px;
+    display: flex;
+}
+
+.content {
+    height: 100%;
+    width: 80%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+}
+
+.footer {
+    height: 70%;
+}
+
+
+
+
+/* header */
 
 img {
     width: 95%;
