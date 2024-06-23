@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+    <!-- OGP設定 -->
+<head prefix="og: https://ogp.me/ns#" fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#>
+
+    <!-- OGP内容 -->
+    <meta property="og:title" content=" プログラマー(魔法使い)の冒険の書" />
+    <meta property="og:url" content=" ページのURL" />
+    <meta property="og:type" content=" article" />
+    <meta property="og:description" content=" ページの説明">
+    <meta property="og:image" content=" サムネ画像のURL" />
+
+    <!-- OGP Twitterでシェア設定 -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Twitter_ID">
+
+    <!-- description このページの説明文 -->
+    <meta name="description" content="プログラミングは現代の魔法と４６歳で気づいたおじさんが０からプログラマー(魔法使い)を目指す冒険の書">
+
+
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
     <title>エンジニアのブログ</title>
+
+    <!-- CSSを適用 -->
+    <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Blog.css') }}">
+
+    <!-- ファビコン設定 -->
+    <link rel="icon" href="./img/favicon.ico" />
+
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Tiny5&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
     </style>
+
 
 </head>
 <body class="home blog" id="nofont-style">
