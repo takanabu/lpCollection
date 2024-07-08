@@ -32,13 +32,8 @@
     <!-- ファビコン設定 -->
     <link rel="icon" href="./img/favicon.ico" />
 
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Tiny5&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
-    </style>
-
-
 </head>
+
 <body class="home blog" id="nofont-style">
     <div id="wrapper">
         <div id="scroll-content" class="animate">
@@ -46,37 +41,22 @@
                 <div id="header" class="header-type1 header animate">
                     <header class="header">
                         <h1 class="header-ttl">
-                            <a href="index.html">冒険の書</a>
+                            まほうつかい(プログラマー)の ぼうけんのしょ
                         </h1>
                         <nav class="header-nav">
                             <ul class="header-nav-list">
                                 <li class="header-nav-item"><a href="index.html">ほーむ</a>
-
                                 </li>
-
+                                <li><a href="#">ぼうけんのりれき</a>
+                                </li>
+                                <li><a href="#">レベルあげのりれき</a>
+                                </li>
+                                <li><a href="#">おぼえたまほう</a>
+                                </li>
+                                <li><a href="#">かくとくゴールド</a>
+                                </li>
                             </ul>
                         </nav>
-
-
-
-
-
-                        <div id="site-info" class="ef">
-                            <span class="tn-logo-size">
-                                <div class="wrapper">
-                                    <h2>ぼうけんのしょ</h2>
-                                </div>
-                                <nav>
-                                    <ul class="wrapper">
-                                        <li><a href="#">ほーむ</a></li>
-                                        <li><a href="#">ぼうけんのりれき</a></li>
-                                        <li><a href="#">レベルあげのりれき</a></li>
-                                        <li><a href="#">おぼえたまほう</a></li>
-                                        <li><a href="#">かくとくゴールド</a></li>
-                                    </ul>
-                                </nav>
-                            </span>
-                        </div>
                     </header>
                 </div>
             </div>
@@ -183,39 +163,48 @@
                         <div class="beginning">
                             <div class=beginning__card>
                                 <p class=card__title>
-                                    　そして　ぼうけんが　はじまった！<br><br>　　いまから　すうかげつ　まえ・・・。
+                                    　そして　まほうつかい(プログラマー)になる　<br>
+                                    <br>　　ぼうけんが　はじまった！
                                 </p>
-                            </div>
-                            <div class="beginning__card-1">
-                                <div class="card-1__item-1">
-                                    <div class="item-1__white-border-1">
-                                        <div class="white-border-1__black-border-1">
-                                            <p class="black-border-1__content">
-                                                　はい
-                                            <br>　　いいえ
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
-                            <div class="card-right__item-right">
-                                <div class="item-right__white-border-right">
-                                    <div class="white-border-right__black-border-right">
-                                        <p class="black-border-right__content">
-                                            　はい
-                                            <br>　　いいえ
-                                        </p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </article>
-                    <aside class="sidebar">
-                        サイドバー
-                    </aside>
                 </main>
+                <aside class="sidebar">
+                    <div class="sidebar-inner">
+                        <div class="sidebar-ttl">
+                            <img class=manabu src="{{ asset(`img/blog/mlv0.png" alt="">
+                            <p class=name>
+                                MANABU
+                            </p>
+                            <p class=profession>
+                                魔法学校(プログラミング教室)卒業生
+                            </p>
+                            <p>
+                                「プログラミングって現代の魔法や！」と４５歳で気づき「残りの人生、魔法使いとして働きたい！」となり半年間６６万円のオンライン魔法学校を卒業。<br>
+                                アプリ魔法開発会社に数十社、応募するも全て断られ・・・。<br>
+                                ということで、フリーランス魔法使いとしてゴールドを稼げるまで行く事を目指して、そしてその過程を公開するサイトを運営していく事にしました。
+                            </p>
+                        </div>
+                    </div>
+                </aside>
                 <footer class="footer">
-                    フッター
+                    <div class="footer-inner">
+                        <div class="footer-ttl">
+                            <a>魔法使い(プログラマー)の冒険の書</a>
+                        </div>
+                        <nav class="footer-nav">
+                            <ul class="footer-nav-list">
+                                <li class="footer-nav-item"><a href="#">ホーム</a>
+                                </li>
+                                <li class="footer-nav-item"><a href="#">プライバシーポリシー</a>
+                                </li>
+                                <li class="footer-nav-item"><a href="#">お問合せ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <small class="copyright">&copy; 2024 , inc</small>
                 </footer>
             </div>
         </div>
