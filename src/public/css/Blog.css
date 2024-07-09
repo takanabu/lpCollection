@@ -1,58 +1,78 @@
-/* スマホ画面になると縦並び */
-
-@media screen and (max-width: 600px) {
-    .top-talk {
-        display: block;
-    }
+/* Css Grid Layout */
+.layout {
+    display: grid;
+    grid-template-rows: 215px 200px 200px 200px 200px 200px 200px 200px 200px 200px 90px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* レスポンシブデザイン */
-
-/* レスポンシブ (768px以上)*/
-@media screen and (min-width: 768px) {
-    .top-talk__card2 {
-        width: 45%;
-    }
+.header {
+    grid-column: 1/4;
+    grid-row: 1/2;
 }
 
-/* レスポンシブ (1000px以上)*/
-@media screen and (min-width: 1000px) {
-    .top-talk__card2 {
-        width: 30%;
-        margin-bottom: 0;
-    }
+.main {
+    grid-column: 1/3;
+    grid-row: 2/11;
 }
 
-
-/* 画面が狭まると縦並びレスポンシブ */
-@media screen and (max-width: 768px) {
-    .top-talk {
-        width: 49%;
-    }
+.sidebar {
+    grid-column: 3/4;
+    grid-row: 2/11;
 }
 
-@media screen and (max-width: 480px) {
-    .top-talk {
-        width: 100%;
-    }
+.footer {
+    grid-column: 1/4;
+    grid-row: 11/12;
 }
 
-@media screen and (max-width: 768px) {
-    .top-talk__card2 {
-        width: 49%;
-    }
+.top-talk__card1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
-@media screen and (max-width: 480px) {
-    .top-talk__card2 {
-        width: 100%;
-    }
+.top-talk__card2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.top-talk__card3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.top-talk__card4 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.top-talk__card5 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+.top-talk__card6 {
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+
+.top-talk__card7 {
+    grid-column: 1/2;
+    grid-row: 8/9;
+}
+
+.top-talk__card8 {
+    grid-column: 2/3;
+    grid-row: 9/10;
+}
+
+.beginning {
+    grid-column: 1/3;
+    grid-row: 10/11;
 }
 
 
 
 /* header */
-
 .header {
     width: 100%;
     position: relative;
@@ -74,7 +94,7 @@ img {
 header nav {
     width: 100%;
     background-color: rgb(28, 7, 134);
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-top: 10px;
     padding-left: 20px;
 }
@@ -117,15 +137,9 @@ header ul li a {
 }
 
 
-/* top-talk */
+
+
 /* top-talk__card1 */
-
-.top-talk {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-
 .top-talk__card1 {
     display: flex;
     justify-content: space-between;
@@ -190,6 +204,7 @@ header ul li a {
     width: 200px;
     height: 120px;
     margin-left: 150px;
+    position: absolute;
 }
 
 .item2__white-border2 {
@@ -214,7 +229,6 @@ header ul li a {
     border-radius: 4px;
     z-index: 800;
     position: relative;
-    
 }
 .black-border2__content {
     color: white;
@@ -568,10 +582,11 @@ header ul li a {
 .footer {
     width: 100%;
     background-color: rgb(28, 7, 134);
-    line-height: 30px;
+    line-height: 20px;
     color: white;
     padding: 20px 0;
     text-align: center;
+    margin-top: 10px;
 }
 
 a {
@@ -650,33 +665,17 @@ a {
 }
 
 
-/* Css Grid Layout */
 
-.layout {
-    display: grid;
-    grid-template-rows: 155px 1850px 100px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 
-.header {
-    grid-column: 1/5;
-    grid-row: 1/2;
-}
 
-.main {
-    grid-column: 1/4;
-    grid-row: 2/3;
-}
 
-.sidebar {
-    grid-column: 4/5;
-    grid-row: 2/3;
-}
 
-.footer {
-    grid-column: 1/5;
-    grid-row: 3/4;
-}
+
+
+
+
+
+
 
 
 /* 画面の幅が細くなると.mainの下に.sidebarが表示されるレスポンシブデザイン */
@@ -684,7 +683,56 @@ a {
 
 /* 幅が600px以下のときのレイアウト */
 
+/* スマホ画面になると縦並び */
 
+@media screen and (max-width: 600px) {
+    .top-talk {
+        display: block;
+    }
+}
+
+/* レスポンシブデザイン */
+
+/* レスポンシブ (768px以上)*/
+@media screen and (min-width: 768px) {
+    .top-talk__card2 {
+        width: 45%;
+    }
+}
+
+/* レスポンシブ (1000px以上)*/
+@media screen and (min-width: 1000px) {
+    .top-talk__card2 {
+        width: 30%;
+        margin-bottom: 0;
+    }
+}
+
+
+/* 画面が狭まると縦並びレスポンシブ */
+@media screen and (max-width: 768px) {
+    .top-talk {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-talk {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-talk__card2 {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-talk__card2 {
+        width: 100%;
+    }
+}
 
 
 
