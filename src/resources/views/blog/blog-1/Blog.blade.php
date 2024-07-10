@@ -86,7 +86,7 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                                            <img class="card2__icon" src="{{ asset('img/blog/mlv0.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="top-talk__card3">
@@ -110,7 +110,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                                        <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card4__icon">
                                     </div>
                                     <div class="top-talk__card5">
                                         <div class="card5__item5">
@@ -133,7 +133,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                                        <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card6__icon">
                                     </div>
                                     <div class="top-talk__card7">
                                         <div class="card7__item7">
@@ -156,7 +156,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card2__icon">
+                                        <img src="{{ asset('img/blog/mlv0.png') }}" alt="" class="card8__icon">
                                     </div>
                                     <div class="beginning">
                                         <div class=beginning__card>
