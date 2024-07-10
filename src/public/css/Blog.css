@@ -178,6 +178,8 @@ header ul li a {
     padding-right: 25px;
     line-height: 30px;
     font-size: 13px;
+    text-align: left;
+    margin: auto;
 }
 
 
@@ -228,111 +230,93 @@ a {
 }
 
 
-
-
 /* top-talk__card1 */
-.top-talk__card1 {
-    display: flex;
-    justify-content: space-between;
-}
-
 .card1__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     width: 400px;
     height: 200px;
+    position: relative;
 }
 
 .item__white-border {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     width: 394px;
     height: 194px;
     border-radius: 4px;
     z-index: 700;
-    position: relative;
+    position: absolute;
+    top: 3px;
+    left: 3px;
 }
 
 .white-border__black-border {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:black;
     width: 383px;
     height: 183px;
     border-radius: 4px;
     z-index: 800;
-    position: relative;
+    position: absolute;
+    top: 6px;
+    left: 6px;
 }
 
 .black-border__content {
     color: white;
     font-size: 20px;
     z-index: 900;
-    position: relative;
+    position: absolute;
     line-height: 30px;
+    top: 18px;
+    left: 13px;
 }
 
 
 /* top-talk__card2 */
-
-.top-talk__card2 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    margin-left: 350px;
-}
-
 .card2__item2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     width: 200px;
     height: 120px;
-    margin-left: 150px;
-    position: absolute;
+    position: relative;
+    top: 30px;
+    left: 450px;
 }
 
 .item2__white-border2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     width: 194px;
     height: 114px;
     border-radius: 4px;
     z-index: 700;
-    position: relative;
+    position: absolute;
+    top: 3px;
+    left: 3px;
 }
 
 .white-border2__black-border2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     width: 185px;
     height: 105px;
     border-radius: 4px;
     z-index: 800;
-    position: relative;
+    position: absolute;
+    top: 4.5px;
+    left: 4.5px;
 }
 .black-border2__content {
     color: white;
     font-size: 20px;
     z-index: 900;
-    position: relative;
+    position: absolute;
     line-height: 30px;
+    top: 20px;
+    left: 20px;
 }
 
 .card2__icon {
     width: 100px;
     height: 100px;
-    margin-top: 20px;
+    position: absolute;
+    left: 200px;
 }
 
 
