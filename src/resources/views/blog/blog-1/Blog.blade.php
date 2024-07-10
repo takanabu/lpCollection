@@ -33,6 +33,10 @@
     <!-- ファビコン設定 -->
     <link rel="icon" href="./img/favicon.ico" />
 
+    <!-- CSSリセットファイルを読み込み -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
 </head>
 
 <body class="homeblog" id="nofont-style">
