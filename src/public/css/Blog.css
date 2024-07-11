@@ -269,29 +269,30 @@ a {
 .card2__item2 {
     display: flex;
     background-color: black;
-    width: 190px;
+    width: 200px;
     height: 120px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 500px;
 }
 
 .item2__white-border2 {
     background-color: white;
-    width: 185px;
+    width: 190px;
     height: 114px;
     border-radius: 4px;
     z-index: 700;
-    transform: translate(2.5px, 3px);
+    transform: translate(5px, 3px);
 }
 
 .white-border2__black-border2 {
     background-color: black;
-    width: 174px;
+    width: 180px;
     height: 105px;
     border-radius: 4px;
     z-index: 800;
     transform: translate(5px, 4px);
 }
+
 .black-border2__content {
     color: white;
     font-size: 20px;
@@ -303,7 +304,7 @@ a {
 .card2__icon {
     width: 100px;
     height: 100px;
-    transform: translate(40px, 10px);
+    transform: translate(720px, -110px);
 }
 
 
@@ -313,7 +314,6 @@ a {
     background-color: black;
     width: 405px;
     height: 125px;
-    margin-top: 50px;
 }
 
 .item3__white-border3 {
@@ -542,7 +542,6 @@ a {
 
 /* beginning */
 .card__title {
-    padding-top: 10px;
     padding-left: 80px;
     font-size: 40px;
     line-height: 120px;
@@ -622,6 +621,12 @@ a {
         height: 120px;
         margin-top: 40px;
         margin-left: 380px;
+    }
+
+    .card2__icon {
+        width: 100px;
+        height: 100px;
+        transform: translate(600px, -110px);
     }
 
     .card4__item4 {
@@ -758,6 +763,12 @@ a {
         height: 120px;
         margin-top: 40px;
         margin-left: 250px;
+    }
+
+    .card2__icon {
+        width: 100px;
+        height: 100px;
+        transform: translate(460px, -110px);
     }
 
     .card4__item4 {

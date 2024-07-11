@@ -26,16 +26,12 @@
 
     <title>エンジニアのブログ</title>
 
-    <!-- CSSを適用 -->
+    <!-- CSSとリセットを適用 -->
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Blog.css') }}">
 
     <!-- ファビコン設定 -->
     <link rel="icon" href="./img/favicon.ico" />
-
-    <!-- CSSリセットファイルを読み込み -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
 
 </head>
 
@@ -90,8 +86,8 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <img class="card2__icon" src="{{ asset('img/blog/mlv0.png') }}" alt="">
                                         </div>
+                                        <img class="card2__icon" src="{{ asset('img/blog/mlv0.png') }}" alt="">
                                     </div>
                                     <div class="top-talk__card3">
                                         <div class="card3__item3">
@@ -108,7 +104,7 @@
                                         <div class="card4__item4">
                                             <div class="item4__white-border4">
                                                 <div class="white-border4__black-border4">
-                                                    <p class="black-border4__content">                                                            　➧ まほうつかい
+                                                    <p class="black-border4__content">　➧ まほうつかい
                                                         <br>　　(プログラマー)
                                                     </p>
                                                 </div>
@@ -208,7 +204,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <small class="copyright">&copy; 2024 , inc</small>
+                            <small class="copyright">&copy; 2024 embrace your, inc</small>
                         </footer>
                     </div>
                 </div>
