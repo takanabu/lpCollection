@@ -78,16 +78,9 @@
     height: 60px;
     z-index: 100;
     background-color: white;
-}
-
-img {
-    width: 95%;
-}
-
-.wrapper {
-    max-width: 1300px;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 20px 15px;
+    max-width: 1230px;
 }
 
 header nav {
