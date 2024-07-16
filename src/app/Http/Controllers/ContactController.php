@@ -10,4 +10,18 @@ class ContactController extends Controller
     {
         return view('footer.contacts.contact');
     }
+
+    public function confirm(Request $request)
+    {
+        $contact = $request->only(['name', 'email',  'content']);
+        return view('footer.contacts.confirm', compact('contact'));
+    }
+
+    public function store(Request $request)
+    {
+        $contact = $request->only(['name', 'email', 'content']);
+        return view('footer.contacts.store');
+    }
+
+
 }

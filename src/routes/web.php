@@ -32,10 +32,9 @@ Route::get('/privacy-policy',
 Route::get('/contact',
 [ContactController::class, 'index']);
 
-Route::get('/confirm',
-[ContactController::class, 'index']);
+Route::post('/contacts/confirm', [ContactController::class, 'confirm']);
 
-
+Route::post('/contacts', [ContactController::class, 'store']);
 
 
 
