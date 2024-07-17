@@ -7,6 +7,8 @@ use App\Http\Controllers\GpAnimeController;
 use App\Http\Controllers\Bs5WebsiteController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
+
 
 Route::get('/jsdesign',
 [JsDesignController::class, 'index']);
@@ -27,8 +29,12 @@ Route::get('/',
 Route::get('/privacy-policy',
 [HomeController::class, 'privacyPolicy']);
 
+Route::get('/contact',
+[ContactController::class, 'index']);
 
+Route::post('/contacts/confirm', [ContactController::class, 'confirm']);
 
+Route::post('/contacts', [ContactController::class, 'store']);
 
 
 
