@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>お問い合わせ</title>
     <link rel="stylesheet" href="{{ asset('css/contact.css') }}" />
 </head>
 <body>
@@ -33,10 +33,12 @@
                     </div>
                     <div class="form__group-content">
                         <div class="form__input--text">
-                            <input type="text" name="name" placeholder="プログラミング太郎" />
+                            <input type="text" name="name" placeholder="プログラミング太郎" value="{{ old('name') }}" />
                         </div>
                         <div class="form__error">
-                            <!-- 後でバリデーション記載 -->
+                            @error('name')
+                            {{ $message}}
+                            @enderror
                         </div>
                     </div>
                 </div>
@@ -48,10 +50,12 @@
                     </div>
                     <div class="form__group-content">
                         <div class="form__input--text">
-                            <input type="email" name="email" placeholder="abcd@efg.com" />
+                            <input type="email" name="email" placeholder="abcd@efg.com"value="{{ old('email') }}" />
                         </div>
                         <div class="form__error">
-                            <!-- 後でバリデーション記載 -->
+                            @error('email')
+                            {{ $message}}
+                            @enderror
                         </div>
                     </div>
                 </div>

@@ -197,9 +197,9 @@
                                     <ul class="footer-nav-list">
                                         <li class="footer-nav-item"><a href="#">ホーム</a>
                                         </li>
-                                        <li class="footer-nav-item"><a href="/privacy-policy" target="_blank">プライバシーポリシー</a>
+                                        <li class="footer-nav-item"><a href="/privacy-policy" target="blank">プライバシーポリシー</a>
                                         </li>
-                                        <li class="footer-nav-item"><a href="#">お問合せ</a>
+                                        <li class="footer-nav-item"><a href="/contact" target="blank" >お問合せ</a>
                                         </li>
                                     </ul>
                                 </nav>
