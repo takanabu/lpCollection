@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
     <!-- OGP設定 -->
 <head prefix="og: https://ogp.me/ns#" fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#>
@@ -16,10 +16,11 @@
     <meta name="twitter:site" content="@Twitter_ID">
 
     <!-- description このページの説明文 -->
-    <meta name="description" content="プログラミングは現代の魔法と４６歳で気づいたおじさんが０からプログラマー(魔法使い)を目指す冒険の書">
+    <meta name="description" content="プログラミングは現代の魔法と４６歳で気づいたおじさんが０から魔法使い(プログラマー)を目指す冒険の書サイト">
 
     <meta charset="UTF-8">
     <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- レスポンシブデザイン　-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

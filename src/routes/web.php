@@ -23,11 +23,27 @@ Route::get('/bs5website', [Bs5WebsiteController::class, 'index']);
 Route::get('/blog',
 [BlogController::class, 'index']);
 
+
+
 Route::get('/',
 [HomeController::class, 'index']);
 
 Route::get('/privacy-policy',
 [HomeController::class, 'privacyPolicy']);
+
+Route::get('/history',
+[HomeController::class, 'history']);
+
+Route::get('/level',
+[HomeController::class, 'level']);
+
+Route::get('/magic',
+[HomeController::class, 'magic']);
+
+Route::get('/gold',
+[HomeController::class, 'gold']);
+
+
 
 Route::get('/contact',
 [ContactController::class, 'index']);

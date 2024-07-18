@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +42,7 @@
                                 初出掲載日・最終改定日
                             </h3>
                                 <p>
-                                    初出掲載日： 2024年7月01日
+                                    初出掲載日： 2024年4月01日
                                 </p>
                                 <p>
                                     最終改定日： 2024年7月11日

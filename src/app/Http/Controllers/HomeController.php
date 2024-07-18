@@ -15,4 +15,25 @@ class HomeController extends Controller
     {
         return view('footer.privacy-policy');
     }
+
+    public function history()
+    {
+        return view('blog.header.history');
+    }
+
+    public function level()
+    {
+        return view('blog.header.level');
+    }
+
+    public function magic()
+    {
+        return view('blog.header.magic');
+    }
+
+    public function gold()
+    {
+        return view('blog.header.gold');
+    }
+
 }
