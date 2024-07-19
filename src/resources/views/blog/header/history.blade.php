@@ -91,9 +91,13 @@
                                 </a>
                             </td>
                             <td class="action-part3">
-                                <a href="">
-                                    副業特化型、魔法(プログラミング)スクールだったが、卒業後すぐに副業できるほどにはスキルは上がらず。
-                                    本気ならば、魔法使い(プログラミング)系会社への転職して経験を積むことをすすめられる。
+                                <a class="action-part3-text" href="">
+                                    副業特化型、魔法(プログラミング)スクールだったが、<br>
+                                    卒業後すぐに副業できるほどスキルは上がらず。<br>
+                                    本気で魔法使いを目指すなら、 <br>
+                                    魔法(プログラミング)系会社へ転職して <br>
+                                    実務経験を積む必要があるとスクール側から言われ<br>
+                                    転職を考える。
                                 </a>
                             </td>
                             <td class="consumption-part3">
@@ -107,8 +111,9 @@
                                 </a>
                             </td>
                             <td class="action-part4">
-                                <a href="">
-                                    とりあえず、自分のサイトを作成し始める。
+                                <a class="action-part4-text" href="">
+                                    とりあえずスクールで学んだ知識で、<br>
+                                    自分のサイトを作成し始める。
                                 </a>
                             </td>
                             <td class="consumption-part4">
@@ -118,13 +123,13 @@
                         <tr class="table-title-part5">
                             <td class="period-part5">
                                 <a href="">
-                                    ２０２４年　４月～６月
+                                    ２０２４年　４月 　　　　　～６月
                                 </a>
                             </td>
                             <td class="action-part5">
-                                <a href="">
-                                    転職活動開始、１３０社くらいトライするが、書類選考で通らず。
-                                    ６社ほど面接まで行くも落とされる。
+                                <a class="action-part5-text" href="">
+                                    転職活動開始<br>
+                                    １３０社くらいトライするが、書類選考で通らず。<br>            ６社ほど面接まで行くも落とされる。
                                 </a>
                             </td>
                             <td class="consumption-part5">

@@ -81,7 +81,7 @@ header ul li a {
 
 .table {
     border: 1px solid #ddd;
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin: auto;
 }
@@ -94,29 +94,43 @@ header ul li a {
     font-weight: bold;
 }
 
+
 /* th */
 .period {
-    padding: 20px;
+    padding: 20px 40px;
+    width: 200px;
 }
 
 .action-title {
+    padding: 20px 20px;
+    width: 700px;
 
 }
 
 .consumption-title {
-
+    padding: 20px 20px;
+    width: 200px;
 }
 
 
-
-
-
-
 /* td */
-.action-part1 {
-    padding: 15px;
-    border-bottom: 1px solid #ddd;
+.period-part1, .period-part2, .period-part3, .period-part4, .period-part5, .consumption-part1, .consumption-part2, .consumption-part3, .consumption-part4, .consumption-part5 {
+    padding: 30px;
+    width: 180px;
+    text-align: center;
+}
 
+
+.action-part1, .action-part2, .action-part3, .action-part4, .action-part5 {
+    padding: 30px;
+    width: 700px;
+}
+
+.action-part3, .action-part4, .action-part5 {
+    text-align: left;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 
