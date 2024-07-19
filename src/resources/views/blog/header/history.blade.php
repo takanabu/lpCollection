@@ -18,15 +18,15 @@
                 </h1>
                 <nav class="header-nav">
                     <ul class="header-nav-list">
-                        <li class="header-nav-item"><a href="index.html">ほーむ</a>
+                        <li class="header-nav-item"><a href="/index"target="_blank">ほーむ</a>
                         </li>
-                        <li><a href="/blog">ぼうけんのしょ</a>
+                        <li><a href="/blog"target="_blank">ぼうけんのしょ</a>
                         </li>
-                        <li><a href="#">レベルあげのりれき</a>
+                        <li><a href="/level"target="_blank">レベルあげのりれき</a>
                         </li>
-                        <li><a href="#">おぼえたまほう</a>
+                        <li><a href="/magic"target="_blank">おぼえたまほう</a>
                         </li>
-                        <li><a href="#">かくとくゴールド</a>
+                        <li><a href="gold"target="_blank">かくとくゴールド</a>
                         </li>
                     </ul>
                 </nav>
@@ -55,7 +55,7 @@
                         <tr class="table-title-part1">
                             <td class="period-part1">
                                 <a href="">
-                                    ２０２３年１０月
+                                    ２０２３年　１０月
                                 </a>
                             </td>
                             <td class="action-part1">
@@ -139,7 +139,7 @@
                     </table>
                 </article>
             </main>
-                        
+
             <footer class="footer">
                 <div class="footer-inner">
                     <div class="footer-ttl">

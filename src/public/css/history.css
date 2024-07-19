@@ -81,7 +81,7 @@ header ul li a {
 
 .table {
     border: 1px solid #ddd;
-    width: 90%;
+    width: 70%;
     text-align: center;
     margin: auto;
 }
@@ -94,22 +94,26 @@ header ul li a {
     font-weight: bold;
 }
 
+.table-title-part1, .table-title-part2, .table-title-part3, .table-title-part4, .table-title-part5 {
+    border-bottom: 1px solid #ddd;
+}
+
 
 /* th */
 .period {
     padding: 20px 40px;
-    width: 200px;
+    width: 120px;
 }
 
 .action-title {
     padding: 20px 20px;
-    width: 700px;
+    width: 500px;
 
 }
 
 .consumption-title {
     padding: 20px 20px;
-    width: 200px;
+    width: 180px;
 }
 
 
@@ -123,7 +127,7 @@ header ul li a {
 
 .action-part1, .action-part2, .action-part3, .action-part4, .action-part5 {
     padding: 30px;
-    width: 700px;
+    width: 500px;
 }
 
 .action-part3, .action-part4, .action-part5 {
@@ -132,11 +136,6 @@ header ul li a {
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
 
 
 /* フッター設定 */

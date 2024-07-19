@@ -48,15 +48,15 @@
                             </h1>
                             <nav class="header-nav">
                                 <ul class="header-nav-list">
-                                    <li class="header-nav-item"><a href="index.html">ほーむ</a>
+                                    <li class="header-nav-item"><a href="/index"target="_blank">ほーむ</a>
                                     </li>
-                                    <li><a href="#">ぼうけんのりれき</a>
+                                    <li><a href="/history"target="_blank">ぼうけんのりれき</a>
                                     </li>
-                                    <li><a href="#">レベルあげのりれき</a>
+                                    <li><a href="/level"target="_blank">レベルあげのりれき</a>
                                     </li>
-                                    <li><a href="#">おぼえたまほう</a>
+                                    <li><a href="/magic"target="_blank">おぼえたまほう</a>
                                     </li>
-                                    <li><a href="#">かくとくゴールド</a>
+                                    <li><a href="/gold"target="_blank">かくとくゴールド</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -198,9 +198,9 @@
                                     <ul class="footer-nav-list">
                                         <li class="footer-nav-item"><a href="#">ホーム</a>
                                         </li>
-                                        <li class="footer-nav-item"><a href="/privacy-policy" target="blank">プライバシーポリシー</a>
+                                        <li class="footer-nav-item"><a href="/privacy-policy"target="_blank">プライバシーポリシー</a>
                                         </li>
-                                        <li class="footer-nav-item"><a href="/contact" target="blank" >お問合せ</a>
+                                        <li class="footer-nav-item"><a href="/contact" target="_blank" >お問合せ</a>
                                         </li>
                                     </ul>
                                 </nav>
