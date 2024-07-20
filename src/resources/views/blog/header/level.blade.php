@@ -55,52 +55,58 @@
                         <tr class="table-title-part1">
                             <td class="name-part1">
                                 <a href="">
-                                    ２０２３年<br>
-                                    １０月～ <br><br>
-                                    ２０２４年 <br> 　　３月
+                                    ＨＴＭＬの魔法<br><br><br>
+                                    (エイチティエムのまほう)
                                 </a>
                             </td>
                             <td class="description-part1">
                                 <a href="">
-                                    オンライン魔法スクール <br>
-                                    (プログラミングスクール)にて
+                                    画面上に文字を書く魔法
+                                <br><br><br>
+                                    (イメージは、小説のように文字だけ、文章だけを表示できる感じ)
                                 </a>
                             </td>
                             <td class="training-part1">
                                 <a href="">
-                                    ＨＴＭＬ・ＣＳＳの魔法
+                                    よく使う呪文を書き出す！
+                                    <br><br>
+                                    (よく使いがちなコードを一覧にまとめる、<br>  無限にあるので暗記は無理だから)
+                                    <br><br>
                                 </a>
-                                <br>
+                                <br><br><br>
                                 <a href="">
-                                    ＰＨＰの魔法
-                                </a>
-                                <br>
-                                <a href="">
-                                    データーベースの魔法
-                                </a>
-                                <br>
-                                <a href="">
-                                    Laravel（ララベル）の魔法
-                                </a>
-                                <br>
-                                <a href="">
-                                    コマンドラインの魔法
+                                    自分のサイトをつくる
+                                    つもりで <br>
+                                    実際に魔法を書いてみる！
                                 </a>
                             </td>
                         </tr>
                         <tr class="table-title-part2">
                             <td class="name-part2">
                                 <a href="">
-                                    ２０２４年　３月
+                                    ＣＳＳの魔法
+                                    <br><br><br>
+                                    (シーエスエスのまほう)
                                 </a>
                             </td>
                             <td class="description-part2">
                                 <a href="">
-                                    オンライン魔法(プログラミング)スクール卒業
+                                    画面上を装飾する魔法
+                                <br><br><br>
+                                    (イメージは、文字だけの小説をマンガのようにする感じ)
                                 </a>
                             </td>
                             <td class="training-part2">
                                 <a href="">
+                                    ＨＴＭＬに紐づける呪文を書き出す！
+                                    <br><br>
+                                    (よく使いがちなコードを一覧にまとめる、<br>  無限にあるので暗記は無理だから)
+                                    <br><br>
+                                </a>
+                                <br><br><br>
+                                <a href="">
+                                    文字を大きくする、色をつける、<br> 画像を取り込む、四角で囲む、 <br>
+                                    リンクをつけるなどの、 <br> よく使う呪文を書き出す！
                                 </a>
                             </td>
                         </tr>
