@@ -36,37 +36,37 @@
                 <article class="content">
                     <table class="table">
                         <tr class="table-title">
-                            <th class="when">
+                            <th class="magic-name">
                                 <a href="">
-                                    いつ？
+                                    まほうのなまえは？
                                 </a>
                             </th>
-                            <th class="where-title">
-                                <a href="">
-                                    どこで？
-                                </a>
-                            </th>
-                            <th class="skill-title">
+                            <th class="description-title">
                                 <a href="">
                                     どんなまほう？
                                 </a>
                             </th>
+                            <th class="training-title">
+                                <a href="">
+                                    しゅぎょうないようは？
+                                </a>
+                            </th>
                         </tr>
                         <tr class="table-title-part1">
-                            <td class="when-part1">
+                            <td class="name-part1">
                                 <a href="">
                                     ２０２３年<br>
                                     １０月～ <br><br>
                                     ２０２４年 <br> 　　３月
                                 </a>
                             </td>
-                            <td class="where-part1">
+                            <td class="description-part1">
                                 <a href="">
                                     オンライン魔法スクール <br>
                                     (プログラミングスクール)にて
                                 </a>
                             </td>
-                            <td class="skill-part1">
+                            <td class="training-part1">
                                 <a href="">
                                     ＨＴＭＬ・ＣＳＳの魔法
                                 </a>
@@ -89,17 +89,17 @@
                             </td>
                         </tr>
                         <tr class="table-title-part2">
-                            <td class="when-part2">
+                            <td class="name-part2">
                                 <a href="">
                                     ２０２４年　３月
                                 </a>
                             </td>
-                            <td class="where-part2">
+                            <td class="description-part2">
                                 <a href="">
                                     オンライン魔法(プログラミング)スクール卒業
                                 </a>
                             </td>
-                            <td class="skill-part2">
+                            <td class="training-part2">
                                 <a href="">
                                 </a>
                             </td>
