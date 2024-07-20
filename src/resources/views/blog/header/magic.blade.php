@@ -18,15 +18,29 @@
                 </h1>
                 <nav class="header-nav">
                     <ul class="header-nav-list">
-                        <li class="header-nav-item"><a href="/index"target="_blank">ほーむ</a>
+                        <li class="header-nav-item">
+                            <a href="/index"target="_blank">    ほーむ
+                            </a>
                         </li>
-                        <li><a href="/blog"target="_blank">ぼうけんのしょ</a>
+                        <li>
+                            <a href="/blog"target="_blank">
+                                ぼうけんのしょ
+                            </a>
                         </li>
-                        <li><a href="/level"target="_blank">ぼうけんのりれき</a>
+                        <li>
+                            <a href="/history"target="_blank">
+                                ぼうけんのりれき
+                            </a>
                         </li>
-                        <li><a href="/magic"target="_blank">レベルあげのりれき</a>
+                        <li>
+                            <a href="/level"target="_blank">
+                                レベルあげのりれき
+                            </a>
                         </li>
-                        <li><a href="gold"target="_blank">かくとくゴールド</a>
+                        <li>
+                            <a href="gold"target="_blank">
+                                かくとくゴールド
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -62,8 +76,8 @@
                             </td>
                             <td class="where-part1">
                                 <a href="">
-                                    オンライン魔法スクール <br>
-                                    (プログラミングスクール)にて
+                                    魔法学校 <br><br>
+                                    (オンラインプログラミングスクール)にて
                                 </a>
                             </td>
                             <td class="skill-part1">
@@ -71,17 +85,21 @@
                                     ＨＴＭＬ・ＣＳＳの魔法
                                 </a>
                                 <br>
+                                <br>
                                 <a href="">
                                     ＰＨＰの魔法
                                 </a>
+                                <br>
                                 <br>
                                 <a href="">
                                     データーベースの魔法
                                 </a>
                                 <br>
+                                <br>
                                 <a href="">
                                     Laravel（ララベル）の魔法
                                 </a>
+                                <br>
                                 <br>
                                 <a href="">
                                     コマンドラインの魔法
@@ -91,12 +109,15 @@
                         <tr class="table-title-part2">
                             <td class="when-part2">
                                 <a href="">
-                                    ２０２４年　３月
+                                    ２０２４年<br>　４月～
                                 </a>
                             </td>
                             <td class="where-part2">
                                 <a href="">
-                                    オンライン魔法(プログラミング)スクール卒業
+                                    『プログラミングチュートリアル』<br><br>
+                                    という<br>
+                                    YouTubeチャンネル<br>
+                                    で魔法を独学
                                 </a>
                             </td>
                             <td class="skill-part2">

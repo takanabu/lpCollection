@@ -95,10 +95,7 @@ header ul li a {
 }
 
 .table-title-part1,
-.table-title-part2,
-.table-title-part3,
-.table-title-part4,
-.table-title-part5 {
+.table-title-part2 {
     border-bottom: 1px solid #ddd;
 }
 
@@ -123,31 +120,30 @@ header ul li a {
 
 /* td */
 .when-part1,
-.when-part2,
-.when-part3,
-.when-part4,
-.when-part5,
-.skill-part1,
-.skill-part2,
-.skill-part3,
-.skill-part4,
-.skill-part5 {
-    padding: 30px;
+.when-part2 {
     width: 180px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
 
 .where-part1,
-.where-part2,
-.where-part3,
-.where-part4,
-.where-part5 {
-    padding: 30px;
-    width: 200px;
+.where-part2 {
+    width:180px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.skill-part1,
+.skill-part2 {
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
 
 .where-part3,
 .where-part4,
