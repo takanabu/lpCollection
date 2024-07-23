@@ -34,127 +34,63 @@
 
             <main class="main">
                 <article class="content">
-                    <div>
-                        <a href="">
-                            トータル獲得ゴールド
+                    <div class="total">
+                        <a class="total-gold" href="">
+                            トータルゴールド
                         </a>
-                        <div>
-                            <a href="">
-                                
+                        <div class="amount">
+                            <a class="amount-total" href="">
+                                －６６０，０００ゴールド
                             </a>
                         </div>
                     </div>
-                    <div>
-                        <p>
-                            使ったゴールド合計
-                        </p>
+                    <div class="flex">
+                        <div class="use">
+                            <a class="use-gold" href="">
+                                使ったゴールド合計
+                            </a>
+                            <div class="use-total">
+                                <a class="use-total-gold" href="">
+                                    －６６０，０００ゴールド
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gain">
+                            <a class="gain-gold" href="">
+                                獲得ゴールド合計
+                            </a>
+                            <div class="gain-total">
+                                <a class="gain-total-gold" href="">
+                                    ０ゴールド
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>
-                            獲得ゴールド合計
-                        </p>
-                    </div>
+
                     <table class="table">
-                        <tr class="table-title">
-                            <th class="period">
-                                <a class="period-title" href="">
-                                    年代
+                        <tr class="table-title1">
+                            <th class="table-use">
+                                <a class="table-use-gold" href="">
+                                    つかった額
                                 </a>
                             </th>
-                            <th class="action-title">
-                                <a href="">
-                                    行動
-                                </a>
-                            </th>
-                            <th class="consumption-title">
-                                <a href="">
-                                    消費ゴールド
+                            <th class="table-gain">
+                                <a class="table-gain-gold" href="">
+                                    かくとく額
                                 </a>
                             </th>
                         </tr>
-                        <tr class="table-title-part1">
-                            <td class="period-part1">
-                                <a href="">
-                                    ２０２３年　１０月
+                        <tr class="table-title2">
+                            <th class="table2-use">
+                                <a class="table2-use-gold" href="">
+                                    魔法（プログラミング）学校学費　‐660,000　ｺﾞｰﾙﾄﾞ
                                 </a>
-                            </td>
-                            <td class="action-part1">
-                                <a href="">
-                                    オンライン魔法(プログラミング)スクール入学
+                            </th>
+                            <th class="table2-gain">
+                                <a class="table2-gain-gold" href="">
+                                    
                                 </a>
-                            </td>
-                            <td class="consumption-part1">
-                                <a href="">
-                                    ６６万　ゴールド
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="table-title-part2">
-                            <td class="period-part2">
-                                <a href="">
-                                    ２０２４年　３月
-                                </a>
-                            </td>
-                            <td class="action-part2">
-                                <a href="">
-                                    オンライン魔法(プログラミング)スクール卒業
-                                </a>
-                            </td>
-                            <td class="consumption-part2">
-                                <a href=""></a>
-                            </td>
-                        </tr>
-                        <tr class="table-title-part3">
-                            <td class="period-part3">
-                                <a href="">
-                                    ２０２４年　４月
-                                </a>
-                            </td>
-                            <td class="action-part3">
-                                <a class="action-part3-text" href="">
-                                    副業特化型、魔法(プログラミング)スクールだったが、<br>
-                                    卒業後すぐに副業できるほどスキルは上がらず。<br>
-                                    本気で魔法使いを目指すなら、 <br>
-                                    魔法(プログラミング)系会社へ転職して <br>
-                                    実務経験を積む必要があるとスクール側から言われ<br>
-                                    転職を考える。
-                                </a>
-                            </td>
-                            <td class="consumption-part3">
-                                <a href=""></a>
-                            </td>
-                        </tr>
-                        <tr class="table-title-part4">
-                            <td class="period-part4">
-                                <a href="">
-                                    ２０２４年　４月
-                                </a>
-                            </td>
-                            <td class="action-part4">
-                                <a class="action-part4-text" href="">
-                                    とりあえずスクールで学んだ知識で、<br>
-                                    自分のサイトを作成し始める。
-                                </a>
-                            </td>
-                            <td class="consumption-part4">
-                                <a href=""></a>
-                            </td>
-                        </tr>
-                        <tr class="table-title-part5">
-                            <td class="period-part5">
-                                <a href="">
-                                    ２０２４年　４月 　　　　　～６月
-                                </a>
-                            </td>
-                            <td class="action-part5">
-                                <a class="action-part5-text" href="">
-                                    転職活動開始<br>
-                                    １３０社くらいトライするが、書類選考で通らず。<br>            ６社ほど面接まで行くも落とされる。
-                                </a>
-                            </td>
-                            <td class="consumption-part5">
-                                <a href=""></a>
-                            </td>
+                            </th>
                         </tr>
                     </table>
                 </article>

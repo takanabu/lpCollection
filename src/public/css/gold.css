@@ -74,87 +74,60 @@ header ul li a {
 
 /* メイン設定 */
 .content {
-    margin: 0 auto;
-    padding: 30px 15px;
     max-width: 1230px;
 }
 
-.table {
-    border: 1px solid #ddd;
-    width: 70%;
+.total {
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    margin: auto;
+    font-weight: bold;
+    font-size: 40px;
+}
+.amount {
+    padding-top: 20px;
 }
 
-/* tr */
-.table-title {
-    border-bottom-width: 0;
-    border-bottom: 1px solid #ddd;
-    background-color: #eee;
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.use, .gain {
+    padding: 40px;
+    margin-left: 260px;
+    font-size: 25;
     font-weight: bold;
 }
 
-.table-title-part1,
-.table-title-part2,
-.table-title-part3,
-.table-title-part4,
-.table-title-part5 {
-    border-bottom: 1px solid #ddd;
+.use-total, .gain-total {
+    margin-top: 10px;
 }
 
 
-/* th */
-.period {
-    padding: 20px 40px;
-    width: 120px;
+/* table */
+.table {
+    margin-left: 180px;
 }
 
-.action-title {
-    padding: 20px 20px;
-    width: 500px;
-
+.table-use, .table-gain, .table-title2 {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.consumption-title {
-    padding: 20px 20px;
-    width: 180px;
-}
-
-
-/* td */
-.period-part1,
-.period-part2,
-.period-part3,
-.period-part4,
-.period-part5,
-.consumption-part1,
-.consumption-part2,
-.consumption-part3,
-.consumption-part4,
-.consumption-part5 {
+.table-use, .table-gain, .table2-use, .table2-gain {
     padding: 30px;
-    width: 180px;
-    text-align: center;
+    width: 400px;
+}
+
+.table2-use, .table2-gain {
+    font-size: 12px;
+    border: 1px solid black;
 }
 
 
-.action-part1,
-.action-part2,
-.action-part3,
-.action-part4,
-.action-part5 {
-    padding: 30px;
-    width: 500px;
-}
 
-.action-part3,
-.action-part4,
-.action-part5 {
-    text-align: left;
-    line-height: 30px;
-    display: flex;
-    justify-content: center;
-}
+
 
 
 /* フッター設定 */
