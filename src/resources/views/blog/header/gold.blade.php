@@ -88,7 +88,6 @@
                             </th>
                             <th class="table2-gain">
                                 <a class="table2-gain-gold" href="">
-                                    
                                 </a>
                             </th>
                         </tr>

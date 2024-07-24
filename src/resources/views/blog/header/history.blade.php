@@ -2,6 +2,8 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+
+    <!-- レスポンシブデザイン　-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -18,15 +20,30 @@
                 </h1>
                 <nav class="header-nav">
                     <ul class="header-nav-list">
-                        <li class="header-nav-item"><a href="/index"target="_blank">ほーむ</a>
+                        <li class="header-nav-item">
+                            <a href="/index"target="_blank">
+                                ほーむ
+                            </a>
                         </li>
-                        <li><a href="/blog"target="_blank">ぼうけんのしょ</a>
+                        <li>
+                            <a href="/blog"target="_blank">
+                                ぼうけんのしょ
+                            </a>
                         </li>
-                        <li><a href="/level"target="_blank">レベルあげのりれき</a>
+                        <li>
+                            <a href="/level"target="_blank">
+                                レベルあげのりれき
+                            </a>
                         </li>
-                        <li><a href="/magic"target="_blank">おぼえたまほう</a>
+                        <li>
+                            <a href="/magic"target="_blank">
+                                おぼえたまほう
+                            </a>
                         </li>
-                        <li><a href="gold"target="_blank">かくとくゴールド</a>
+                        <li>
+                            <a href="gold"target="_blank">
+                                かくとくゴールド
+                            </a>
                         </li>
                     </ul>
                 </nav>
