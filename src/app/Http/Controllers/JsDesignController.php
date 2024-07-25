@@ -8,7 +8,7 @@ class JsDesignController extends Controller
 {
     public function index()
     {
-        return view('JsDesign');
+        return view('home.JsDesign');
     }
 }
 

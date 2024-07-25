@@ -8,6 +8,6 @@ class Bs5WebsiteController extends Controller
 {
     public function index()
     {
-        return view('Bs5Website');
+        return view('home.Bs5Website');
     }
 }

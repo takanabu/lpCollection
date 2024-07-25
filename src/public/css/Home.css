@@ -1,0 +1,90 @@
+/* フォントはデフォルトで16px */
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ﾃﾞﾌｫﾙﾄﾌｫﾝﾄ16pxの1.3倍が1.3rem */
+p {
+    font-size: 1.3rem;
+}
+
+/* max-widthはスマホサイズでも自動で大きさ調整 */
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+
+/* line-height 文字の高さ */
+/* font-weight 文字の太さ */
+/* font-size 文字の大きさ */
+.site-title {
+    line-height: 1px;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+/* 文字の色変更 */
+.site-title a {
+    color: #24292e;
+}
+
+
+
+/* ヘッダー */
+
+/* 960pxが最大それ以上大きくならない */
+/* display flex 親header 子h1 navとかを横並びにする */
+/* align-items縦軸縦の中央寄せ */
+/* justify 横軸のcenterで中央 spbet間を空ける */
+/* margin 0 auto 両サイドのちょうどいい余白 */
+/* padding 内側（緑色）上下０ 左右４％ 画面が小さくなっても*/
+/* height ヘッダーの高さ */
+#header {
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 4%;
+    height: 170px;
+}
+
+#header ul {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+#header ul li {
+    font-size: 0.9rem;
+    margin-left: 30px;
+}
+
+
+/* ヘッダーリンク部の色変更 */
+/* transitionフォバーしたときゆっくり色が変わる */
+#header ul li a {
+    color: #24292e;
+    transition: all 0.3s;
+}
+
+/* ヘッダーリンク部をフォバーしたときに色変え */
+/* opacity透明度 */
+#header ul li a:hover {
+    opacity: 0.5;
+}
+
+/*  */
