@@ -5,6 +5,7 @@ html {
 
 body {
     color: #24292e;
+    font-family: "Sawarabi Gothic";
 }
 
 a {
@@ -27,6 +28,17 @@ li {
 }
 
 
+/* wrapperラッパーと読む */
+/* max-width 文字の部分の横幅 */
+/* margin 上右下左の順番 */
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+
+
 /* line-height 文字の高さ */
 /* font-weight 文字の太さ */
 /* font-size 文字の大きさ */
@@ -39,6 +51,13 @@ li {
 /* 文字の色変更 */
 .site-title a {
     color: #24292e;
+}
+
+/* aboutの文字 */
+.sec-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
 }
 
 
@@ -61,6 +80,7 @@ li {
     padding: 0 4%;
     height: 170px;
 }
+
 
 #header ul {
     display: flex;
@@ -87,4 +107,168 @@ li {
     opacity: 0.5;
 }
 
-/*  */
+/* ツイッターアイコン */
+header li img.icon {
+    width: 30px;
+}
+
+
+/* main */
+/* 画像と中央の文字の間に隙間を空ける */
+#main {
+    margin-bottom: 80px;
+}
+
+/* 通常時の画像サイズ */
+/* object-fit つぶれた画像をﾌｨｯﾄさせてくれる */
+#main img {
+    width: 100%;
+    max-width: 1920px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* about */
+#about ul {
+    margin-bottom: 30px;
+}
+
+#about ul li {
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+
+#about ul li :first-child {
+    margin-bottom: 30px;
+}
+
+#about p {
+    line-height: 1.6;
+}
+
+
+
+
+/* works */
+
+/* display flex サイトの画像を横並び */
+/* flex-wrap 折り返す */
+/* justify-content 画像同士の間を空ける */
+#works ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* 画像横並び幅に対して画像幅を31％づつ設定 */
+/* 画像同士の下の幅を空ける */
+#works ul li {
+    width: 31%;
+    margin-bottom: 23px;
+}
+
+/* 画像をﾌｫﾊﾞｰしたら浮かす */
+/* transition時間をかけて画像が大きくなる */
+#works ul li iframe {
+    cursor: pointer;
+    transition: all -0.3s;
+}
+
+/* transform ﾌｫﾊﾞｰしたら1.2倍の大きさになる */
+/* opacity ﾌｫﾊﾞｰしたら透明になる */
+#works ul li iframe:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 0.7;
+}
+
+/* news */
+/* display ddとdtを横並びにする */
+/* flex-wrap 折り返し */
+/* border 項目の上に線を引く */
+#news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #c8c8c8;
+    margin-bottom: 20px;
+}
+
+/* 日付の幅を20% */
+/* 項目の下に線を引く */
+/* padding上下左右の隙間 */
+#news dt {
+    width: 20%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+}
+
+/* 項目の幅を80% */
+/* padding上下左右の隙間 */
+#news dd {
+    width: 80%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+}
+
+
+
+/* References */
+#References p {
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+
+/* ﾚｷﾎﾟﾝｼﾌﾞ ｽﾏｰﾄﾌｫﾝ */
+@media screen and (max-width: 600px) {
+
+    /* header */
+    /* flex-direction h1とナビ要素を縦並びにする */
+    #header {
+        flex-direction: column;
+        height: auto;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    #header li {
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+
+    #header li img.icon {
+        width: 20px;
+        margin-top: 15px;
+    }
+
+
+    /* works */
+    /* flex-direction 画像を縦並びに戻す */
+    #works ul {
+        flex-direction: column;
+    }
+
+    /* 画像のある部分の幅を100%に戻す */
+    #works ul li {
+        width: 100%;
+    }
+
+    /* news */
+    /* 日付と項目を縦並びにする */
+    #news dl {
+        flex-direction: column;
+    }
+
+    /* 項目の幅を100% */
+    #news dt {
+        width: 100%;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    #news dd {
+        width: 100%;
+        padding-top: 0;
+    }
+
+}
