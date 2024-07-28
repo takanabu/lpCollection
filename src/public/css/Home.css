@@ -147,14 +147,12 @@ header li img.icon {
 }
 
 
-
-
-/* works */
+/* lp */
 
 /* display flex サイトの画像を横並び */
 /* flex-wrap 折り返す */
 /* justify-content 画像同士の間を空ける */
-#works ul {
+#lp ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -163,24 +161,57 @@ header li img.icon {
 
 /* 画像横並び幅に対して画像幅を31％づつ設定 */
 /* 画像同士の下の幅を空ける */
-#works ul li {
-    width: 31%;
-    margin-bottom: 23px;
+#lp ul li {
+    width: 50%;
+    margin-bottom: 33px;
 }
 
 /* 画像をﾌｫﾊﾞｰしたら浮かす */
 /* transition時間をかけて画像が大きくなる */
-#works ul li iframe {
+#lp ul li iframe {
     cursor: pointer;
-    transition: all -0.3s;
+    transition: all -0.8s;
 }
 
 /* transform ﾌｫﾊﾞｰしたら1.2倍の大きさになる */
 /* opacity ﾌｫﾊﾞｰしたら透明になる */
-#works ul li iframe:hover {
+#lp ul li iframe:hover {
     transform: scale(1.2, 1.2);
     opacity: 0.7;
 }
+
+/* border 項目の上に線を引く */
+#lp ul li dl {
+    border-top: 1px solid #c8c8c8;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+/* 日付の幅を20% */
+/* 項目の下に線を引く */
+/* padding上下左右の隙間 */
+#lp ul li dt {
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    transition: all -0.8s;
+}
+
+#lp ul li dt:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 0.7;
+}
+
+/* 項目の幅を80% */
+/* padding上下左右の隙間 */
+#lp ul li dd {
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+}
+
 
 /* news */
 /* display ddとdtを横並びにする */
@@ -205,7 +236,7 @@ header li img.icon {
 /* 項目の幅を80% */
 /* padding上下左右の隙間 */
 #news dd {
-    width: 80%;
+    width: 100%;
     border-bottom: 1px solid #c8c8c8;
     padding: 15px;
 }
@@ -213,9 +244,14 @@ header li img.icon {
 
 
 /* References */
-#References p {
+#references p {
     line-height: 1.6;
     margin-bottom: 40px;
+    margin-left: 200px;
+}
+
+#references iframe {
+    margin-left: 200px;
 }
 
 

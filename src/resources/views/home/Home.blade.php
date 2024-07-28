@@ -34,17 +34,27 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#LP">
-                        LP collection
+                    <a href="#lp">
+                        LP Collection
                     </a>
                 </li>
                 <li>
-                    <a href="#blog">
+                    <a href="#news">
+                        News
+                    </a>
+                </li>
+                <li>
+                    <a href="#references">
+                        References
+                    </a>
+                </li>
+                <li>
+                    <a href="/blog"target="_blank">
                         Blog
                     </a>
                 </li>
                 <li>
-                    <a href="#contact">
+                    <a href="/contact"target="_blank">
                         Contact
                     </a>
                 </li>
@@ -65,7 +75,6 @@
 
     <!-- 画像のﾚｷﾎﾟﾝｼﾌﾞ設定 -->
     <!-- sourece ｽﾏﾎｻｲｽﾞの時の設定  -->
-
         <picture>
             <source media="(max-width: 600px)" srcset="./img/home/main-lp2.jpg" />
             <img src="./img/home/main-lp.jpg" alt="">
@@ -86,19 +95,74 @@
         </p>
     </section>
 
-    <!-- works -->
+    <!-- lp -->
     <!-- idをヘッダーのa href="#about"と合わせるｸﾘｯｸで移動出来る -->
     <!-- classをwrapperで統一する事で幅が統一される -->
-    <section id="works" class="wrapper">
+    <section id="lp" class="wrapper">
         <h2 class="sec-title">
-            Works
+            Lp Collection
         </h2>
         <ul>
             <li>
-                <iframe src="https://www..com" width="500" height="300"></iframe>
-                <iframe src="https://www..com" width="500" height="300"></iframe>
-                <iframe src="https://www..com" width="500" height="300"></iframe>
-                <iframe src="https://www..com" width="500" height="300"></iframe>
+                <iframe src="/jsdesign" width="auto" height="auto">
+                </iframe>
+            </li>
+            <li>
+                <dl>
+                    <a href="/jsdesign"target="_blank">
+                        <dt>
+                            一部クリックすると画像が動くサイト！
+                        </dt>
+                    </a>
+                    <dd>
+                        HTML、CSS、JavaScript、という技術で作成されています。
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <iframe src="/bs5website" width="auto" height="auto"></iframe>
+            </li>
+            <li>
+                <dl>
+                    <a href="/bs5website"target="_blank">
+                        <dt>
+                            あらゆるところが動くおしゃれサイト！
+                        </dt>
+                    </a>
+                    <dd>
+                        HTML、CSS、JavaScript、Bootstrap5、という技術で作成されています。
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <iframe src="/hcbackvideo" width="auto" height="auto"></iframe>
+            </li>
+            <li>
+                <dl>
+                    <a href="/hcbackvideo"target="_blank">
+                        <dt>
+                            文字の後ろで動画が動く幻想的なサイト！
+                        </dt>
+                    </a>
+                    <dd>
+                        HTML、CSS、だけの技術で作成されています。
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <iframe src="/gpanime" width="auto" height="auto"></iframe>
+            </li>
+            <li>
+                <dl>
+                    <a href="/gpanime"target="_blank">
+                        <dt>
+                            写真が動いてるように見えるアニメーションサイト！
+                        </dt>
+                    </a>
+                    <dd>
+                        HTML、CSS、JavaScriptのgsap、で作成されています。
+                    </dd>
+                </dl>
             </li>
         </ul>
     </section>
@@ -121,7 +185,7 @@
 
 
     <!-- References -->
-    <section id="References" class="wrapper">
+    <section id="references" class="wrapper">
         <h2 class="sec-title">
             References
         </h2>
