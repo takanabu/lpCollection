@@ -250,10 +250,6 @@ header li img.icon {
     margin-left: 200px;
 }
 
-#references iframe {
-    margin-left: 200px;
-}
-
 
 /* ﾚｷﾎﾟﾝｼﾌﾞ ｽﾏｰﾄﾌｫﾝ */
 @media screen and (max-width: 600px) {
@@ -268,7 +264,7 @@ header li img.icon {
     }
 
     #header li {
-        font-size: 0.8rem;
+        font-size: 0.2rem;
         margin-left: 20px;
     }
 
@@ -278,14 +274,14 @@ header li img.icon {
     }
 
 
-    /* works */
+    /* lp */
     /* flex-direction 画像を縦並びに戻す */
-    #works ul {
+    #lp ul {
         flex-direction: column;
     }
 
     /* 画像のある部分の幅を100%に戻す */
-    #works ul li {
+    #lp ul li {
         width: 100%;
     }
 
@@ -305,6 +301,21 @@ header li img.icon {
     #news dd {
         width: 100%;
         padding-top: 0;
+    }
+
+    /* References */
+    #references {
+        width: 100%;
+    }
+
+    #references p {
+        line-height: 1.6;
+        margin-bottom: 40px;
+        margin-left: auto
+    }
+
+    #references iframe {
+        margin-left: auto;
     }
 
 }

@@ -60,8 +60,8 @@
                 </li>
                 <li>
                     <!-- 新規ページ開く及びｾｷｭﾘﾃｨ対策 -->
-                    <a href="https://www.Twitter.com"
-                    target="_blank"
+                    <a href=""
+                    target=""
                     rel="noopener noreferrer"
                     ><img src="./img/home/twitter.png" alt="Twitter" class="icon"
                     /></a>
@@ -190,15 +190,15 @@
             References
         </h2>
         <p>
-            こちらのYouTubeチャンネルを参考にさせて頂きました！<br>
-            非常にわかりやすく丁寧にコードを紹介してくれています。
+            こちらのYouTubeチャンネルとサイトを参考にさせて頂きました！<br>
+            非常にわかりやすく丁寧に手順を紹介してくれています。<br><br><br>
+            <a href="https://www.youtube.com/@user-hl9uv6cv7k"target="_blank">
+                プログラミングチュートリアル YouTubeチャンネル
+            </a><br><br>
+            <a href="https://code-jump.com/"target="_blank">
+                Codejumpサイト
+            </a>
         </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/v=rDTDAWxTF1A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
     </section>
-
-
-
-
 </body>
 </html>
