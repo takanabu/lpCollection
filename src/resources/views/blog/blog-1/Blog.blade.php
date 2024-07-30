@@ -25,7 +25,7 @@
     <!-- レスポンシブデザイン　-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>エンジニアのブログ</title>
+    <title>魔法使いのブログ</title>
 
     <!-- CSSとリセットを適用 -->
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
@@ -33,6 +33,10 @@
 
     <!-- ファビコン設定 -->
     <link rel="icon" href="./img/favicon.ico" />
+
+    <!-- アドセンス -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1125921042756654"
+    crossorigin="anonymous"></script>
 
 </head>
 
@@ -48,7 +52,7 @@
                             </h1>
                             <nav class="header-nav">
                                 <ul class="header-nav-list">
-                                    <li class="header-nav-item"><a href="/index"target="_blank">ほーむ</a>
+                                    <li class="header-nav-item"><a href="/"target="_blank">ほーむ</a>
                                     </li>
                                     <li><a href="/history"target="_blank">ぼうけんのりれき</a>
                                     </li>
@@ -175,7 +179,7 @@
                                 <div class="sidebar-ttl">
                                     <img class=face src="{{ asset('img/blog/mlv0.png') }}" alt="">
                                         <p class=name>
-                                            MANABU
+                                            MANA
                                         </p>
                                         <p class=profession>
                                             魔法教室(プログラミング教室)卒業生

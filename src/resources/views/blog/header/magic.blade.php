@@ -7,6 +7,12 @@
 
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/magic.css') }}">
+
+    <!-- アドセンス -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1125921042756654"
+    crossorigin="anonymous"></script>
+
+
     <title>おぼえたまほう</title>
 </head>
 <body>

@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Home.css') }}">
 
+    <!-- アドセンス -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1125921042756654"
+    crossorigin="anonymous"></script>
+
+
     <title>Magic Code</title>
 
 </head>
@@ -35,7 +40,7 @@
                 </li>
                 <li>
                     <a href="#lp">
-                        LP Collection
+                        LP
                     </a>
                 </li>
                 <li>
@@ -56,6 +61,11 @@
                 <li>
                     <a href="/contact"target="_blank">
                         Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="/privacy-policy"target="_blank">
+                        Policy
                     </a>
                 </li>
                 <li>
