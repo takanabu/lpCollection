@@ -8,6 +8,7 @@ use App\Http\Controllers\Bs5WebsiteController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SitemapController;
 
 
 Route::get('/jsdesign',
@@ -52,5 +53,8 @@ Route::post('/contacts/confirm', [ContactController::class, 'confirm']);
 
 Route::post('/contacts', [ContactController::class, 'store']);
 
+
+// /サイトマップ/
+Route::get('/sitemap.xml', [SitemapController::class, 'index']);
 
 
