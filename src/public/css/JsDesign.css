@@ -169,5 +169,106 @@ nav {
 }
 
 
+/* ﾚｷﾎﾟﾝｼﾌﾞ ｽﾏｰﾄﾌｫﾝ */
+@media screen and (max-width: 600px) {
 
+/* ヘッダー */
+    /* logo-areaとnav-linksを縦に並べる */
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* logoとmy-headingを右並びに横に並べる */
+    .logo-area {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        margin-left: -120px;
+    }
+
+    /* a要素を横並びにする */
+    .nav-links ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 10px;
+        margin-left: -70px;
+    }
+
+    .nav-links ul a li {
+        margin-left: -25px;
+        margin-top: 15px;
+    }
+
+    .nav-links ul a {
+        color: black;
+    }
+
+
+/* main */
+
+    .control h3 {
+        color: black;
+    }
+
+    #upBtn,
+    #downBtn {
+        width: 50px;
+        color: black;
+    }
+
+    .pc {
+        width: 100px;
+        margin-left: -80px;
+    }
+
+    .information {
+        width: 375px;
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        transform: translateY(-50%);
+        background: linear-gradient(to right, #b5edef, #05e8a0);
+    }
+
+    #circle {
+        width: 375px;
+        height: 550px;
+        margin-left: -100px;
+    }
+
+    .control {
+        margin-top: -120px;
+        margin-right: 120px;
+    }
+
+    .control h3 {
+        font-size: 15px;
+    }
+
+        #upBtn,
+        #downBtn {
+            width: 20px !important;
+            height: auto !important;
+        }
+
+    .overlay {
+        width: 0;
+        height: 0;
+        border-top: 280px solid #05e8a0;
+        border-right: 280px solid transparent;
+        border-bottom: 280px solid #05e8a0;
+        border-left: 280px solid #05e8a0;
+    }
+
+        .main {
+            background: linear-gradient(to right, #b5edef, #05e8a0);
+        }
+
+
+}
 

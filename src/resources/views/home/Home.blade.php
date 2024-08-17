@@ -18,6 +18,9 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1125921042756654"
     crossorigin="anonymous"></script>
 
+    <!-- ファビコン設定 -->
+    <link rel="icon" href="./img/favicon.ico" />
+
 
     <title>Magic Code</title>
 
@@ -125,8 +128,13 @@
                         </dt>
                     </a>
                     <dd>
-                        HTML、CSS、JavaScript、という技術で作成されています。
+                        HTML、CSS、JavaScript、という技術で作成。
                     </dd>
+                    <a href="/jsdesign/write-code"target="_blank">
+                        <dd>
+                        コードの描き方はこちらから！
+                    </dd>
+                    </a>
                 </dl>
             </li>
             <li>
