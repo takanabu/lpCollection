@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- アドセンス -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1125921042756654"
+    crossorigin="anonymous"></script>
+
+    <!-- ファビコン設定 -->
+    <link rel="icon" href="./img/favicon.ico" />
+
+
+
     <title>Javascript-Design</title>
     <link rel="stylesheet" href="{{ asset('css/JsDesign.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +22,10 @@
 </head>
 <body>
     <div class="main">
-        <nav>
+        <nav class="header">
             <div class="logo-area">
                 <img src="./img/logo.png" alt="" class="logo"/>
-                <h2>Interior Design</h2>
+                <h2 class="my-heading">Interior Design</h2>
             </div>
 
             <div class="nav-links">
@@ -31,47 +42,45 @@
         <div class="information">
             <div class="overlay">
                 <img src="./img/pc.png" class="pc"/>
-                <div id="circle">
-                    <div class="feature one">
-                        <img src="./img/camera.png" alt="">
-                        <div>
-                            <h1>camera</h1>
-                            <p>Beautiful lens.</p>
+                    <div id="circle">
+                        <div class="feature one">
+                            <img src="./img/camera.png" alt="">
+                            <div>
+                                <h1>camera</h1>
+                                <p>Beautiful lens.</p>
+                            </div>
+                        </div>
+                        <div class="feature two">
+                            <img src="./img/processor.png" alt="">
+                            <div>
+                                <h1>processor</h1>
+                                <p>Processor is very important.</p>
+                            </div>
+                        </div>
+                        <div class="feature three">
+                            <img src="./img/battery.png" alt="">
+                            <div>
+                                <h1>Battery</h1>
+                                <p>Battery is Powerful.</p>
+                            </div>
+                        </div>
+                        <div class="feature four">
+                            <img src="./img/display.png" alt="">
+                            <div>
+                                <h1>Display</h1>
+                                <p>Beautiful display.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="feature two">
-                        <img src="./img/processor.png" alt="">
-                        <div>
-                            <h1>processor</h1>
-                            <p>Processor is very important.</p>
-                        </div>
-                    </div>
-                    <div class="feature three">
-                        <img src="./img/battery.png" alt="">
-                        <div>
-                            <h1>Battery</h1>
-                            <p>Battery is Powerful.</p>
-                        </div>
-                    </div>
-                    <div class="feature four">
-                        <img src="./img/display.png" alt="">
-                        <div>
-                            <h1>Display</h1>
-                            <p>Beautiful display.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-
         <!-- control section -->
         <div class="control">
             <img src="./img/arrow.png" id="upBtn">
-            <h3>Feature</h3>
+                <h3>Feature</h3>
             <img src="./img/arrow.png" id="downBtn">
         </div>
     </div>
-
     <script src="{{ asset('js/app.js') }}"></script>
 
 </body>

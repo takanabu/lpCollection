@@ -169,5 +169,137 @@ nav {
 }
 
 
+/* ﾚｷﾎﾟﾝｼﾌﾞ ｽﾏｰﾄﾌｫﾝ */
+@media screen and (max-width: 600px) {
 
+/* ヘッダー */
+    /* logo-areaとnav-linksを縦に並べる */
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* logoとmy-headingを右並びに横に並べる */
+    .logo-area {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        margin-left: -120px;
+    }
+
+    /* a要素を横並びにする */
+    .nav-links ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 10px;
+        margin-left: -80px;
+    }
+
+    .nav-links ul a li {
+        margin-left: -25px;
+        margin-top: 15px;
+    }
+
+    .nav-links ul a {
+        color: black;
+    }
+
+
+/* main */
+
+    .control h3 {
+        color: white;
+    }
+
+    #upBtn,
+    #downBtn {
+        width: 50px;
+        color: white;
+    }
+
+    .pc {
+        width: 100px;
+        margin-left: -80px;
+    }
+
+    .information {
+        width: 375px;
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        transform: translateY(-50%);
+        background: linear-gradient(to right, #b5edef, #05e8a0);
+    }
+
+    #circle {
+        width: 375px;
+        height: 550px;
+        margin-left: -100px;
+    }
+
+    .control {
+        margin-top: -120px;
+        margin-right: 120px;
+    }
+
+    .control h3 {
+        font-size: 15px;
+    }
+
+    #upBtn,
+    #downBtn {
+        width: 20px !important;
+        height: auto !important;
+    }
+
+    .overlay {
+        margin-left: -170px;
+        margin-top: -5px;
+        border-top: 280px solid #fff;
+        border-right: 135px solid transparent;
+        border-bottom: 280px solid #fff;
+        border-left: 280px solid #fff;
+    }
+
+    .main {
+        background: linear-gradient(to right, #b5edef, #05e8a0);
+    }
+
+    .one {
+        top: 260px;
+        right: 70px;
+        width: 80px !important;
+        height: auto !important;
+        font-size: 9px;
+    }
+
+    .two {
+        top: 45px;
+        right: 8px;
+        transform: rotate(-90deg);
+        font-size: 8px;
+    }
+
+    .three {
+        bottom: 255px;
+        left: 10px;
+        transform: rotate(-180deg);
+        font-size: 8px;
+    }
+
+    .four {
+        bottom: 130px;
+        right: 100px;
+        transform: rotate(-270deg);
+        font-size: 8px;
+    }
+
+
+
+
+}
 

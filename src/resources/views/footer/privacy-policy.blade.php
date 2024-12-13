@@ -1,8 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- アドセンス -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1125921042756654"
+    crossorigin="anonymous"></script>
+
+
+
+
     <title>プライバシーポリシー・免責事項</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/privacy-policy.css">
@@ -24,11 +32,11 @@
                             <p>
                                 運営者:embrace your
                                 <br>
-                                サイト名：My Landing Page Collection
+                                サイト名：Magic Code
                                 <br>
-                                ブログＵＲＬ：●
+                                ブログＵＲＬ：https://keepgo4.com
                                 <br>
-                                連絡先：
+                                連絡先：info@keepgo4.com
                                 <br>
                             </p>
                         </section>
@@ -42,7 +50,7 @@
                                 初出掲載日・最終改定日
                             </h3>
                                 <p>
-                                    初出掲載日： 2024年7月01日
+                                    初出掲載日： 2024年4月01日
                                 </p>
                                 <p>
                                     最終改定日： 2024年7月11日

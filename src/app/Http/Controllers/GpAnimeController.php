@@ -8,6 +8,6 @@ class GpAnimeController extends Controller
 {
     public function index()
     {
-        return view('GpAnime');
+        return view('home.GpAnime');
     }
 }

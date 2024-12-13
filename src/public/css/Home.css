@@ -1,0 +1,340 @@
+/* フォントはデフォルトで16px */
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+    font-family: "Sawarabi Gothic";
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ﾃﾞﾌｫﾙﾄﾌｫﾝﾄ16pxの1.3倍が1.3rem */
+p {
+    font-size: 1.3rem;
+}
+
+/* max-widthはスマホサイズでも自動で大きさ調整 */
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+
+/* wrapperラッパーと読む */
+/* max-width 文字の部分の横幅 */
+/* margin 上右下左の順番 */
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+
+
+/* line-height 文字の高さ */
+/* font-weight 文字の太さ */
+/* font-size 文字の大きさ */
+.site-title {
+    line-height: 1px;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+/* 文字の色変更 */
+.site-title a {
+    color: #24292e;
+}
+
+/* aboutの文字 */
+.sec-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+
+/* ヘッダー */
+
+/* 960pxが最大それ以上大きくならない */
+/* display flex 親header 子h1 navとかを横並びにする */
+/* align-items縦軸縦の中央寄せ */
+/* justify 横軸のcenterで中央 spbet間を空ける */
+/* margin 0 auto 両サイドのちょうどいい余白 */
+/* padding 内側（緑色）上下０ 左右４％ 画面が小さくなっても*/
+/* height ヘッダーの高さ */
+#header {
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 4%;
+    height: 170px;
+}
+
+
+#header ul {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+#header ul li {
+    font-size: 0.9rem;
+    margin-left: 30px;
+}
+
+
+/* ヘッダーリンク部の色変更 */
+/* transitionフォバーしたときゆっくり色が変わる */
+#header ul li a {
+    color: #24292e;
+    transition: all 0.3s;
+}
+
+/* ヘッダーリンク部をフォバーしたときに色変え */
+/* opacity透明度 */
+#header ul li a:hover {
+    opacity: 0.5;
+}
+
+/* ツイッターアイコン */
+header li img.icon {
+    width: 30px;
+}
+
+
+/* main */
+/* 画像と中央の文字の間に隙間を空ける */
+#main {
+    margin-bottom: 80px;
+}
+
+/* 通常時の画像サイズ */
+/* object-fit つぶれた画像をﾌｨｯﾄさせてくれる */
+#main img {
+    width: 100%;
+    max-width: 1920px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* about */
+#about ul {
+    margin-bottom: 30px;
+}
+
+#about ul li {
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+
+#about ul li :first-child {
+    margin-bottom: 30px;
+}
+
+#about p {
+    line-height: 1.6;
+}
+
+
+/* lp */
+
+/* display flex サイトの画像を横並び */
+/* flex-wrap 折り返す */
+/* justify-content 画像同士の間を空ける */
+#lp ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* 画像横並び幅に対して画像幅を31％づつ設定 */
+/* 画像同士の下の幅を空ける */
+#lp ul li {
+    width: 50%;
+    margin-bottom: 33px;
+}
+
+/* 画像をﾌｫﾊﾞｰしたら浮かす */
+/* transition時間をかけて画像が大きくなる */
+#lp ul li iframe {
+    cursor: pointer;
+    transition: all -0.8s;
+}
+
+/* transform ﾌｫﾊﾞｰしたら1.2倍の大きさになる */
+/* opacity ﾌｫﾊﾞｰしたら透明になる */
+#lp ul li iframe:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 0.7;
+}
+
+/* border 項目の上に線を引く */
+#lp ul li dl {
+    border-top: 1px solid #c8c8c8;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+/* 日付の幅を20% */
+/* 項目の下に線を引く */
+/* padding上下左右の隙間 */
+#lp ul li dt {
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    transition: all -0.8s;
+}
+
+#lp ul li dt:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 0.7;
+}
+
+/* 項目の幅を80% */
+/* padding上下左右の隙間 */
+#lp ul li dd {
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+}
+
+
+/* news */
+/* display ddとdtを横並びにする */
+/* flex-wrap 折り返し */
+/* border 項目の上に線を引く */
+#news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #c8c8c8;
+    margin-bottom: 20px;
+}
+
+/* 日付の幅を20% */
+/* 項目の下に線を引く */
+/* padding上下左右の隙間 */
+#news dt {
+    width: 20%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+}
+
+/* 項目の幅を80% */
+/* padding上下左右の隙間 */
+#news dd {
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 15px;
+}
+
+
+
+/* References */
+#references p {
+    line-height: 1.6;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+
+
+/* ﾚｷﾎﾟﾝｼﾌﾞ ｽﾏｰﾄﾌｫﾝ */
+@media screen and (max-width: 600px) {
+
+    #header ul {
+        display: flex;
+        margin: 30px 0;
+        align-items: center;
+    }
+
+    #header ul li {
+        font-size: 0.7rem;
+        margin-left: 12px;
+    }
+
+    .site-title {
+        margin-top: 20px;
+    }
+
+    #main img {
+        margin-left: 15px;
+    }
+
+    /* header */
+    /* flex-direction h1とナビ要素を縦並びにする */
+    #header {
+        flex-direction: column;
+        height: auto;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    #header li {
+        font-size: 0.2rem;
+        margin-left: 20px;
+    }
+
+    #header li img.icon {
+        width: 20px;
+        margin-top: 15px;
+    }
+
+
+    /* lp */
+    /* flex-direction 画像を縦並びに戻す */
+    #lp ul {
+        flex-direction: column;
+    }
+
+    /* 画像のある部分の幅を100%に戻す */
+    #lp ul li {
+        width: 100%;
+    }
+
+    /* news */
+    /* 日付と項目を縦並びにする */
+    #news dl {
+        flex-direction: column;
+    }
+
+    /* 項目の幅を100% */
+    #news dt {
+        width: 100%;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    #news dd {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    /* References */
+    #references {
+        width: 100%;
+    }
+
+    #references p {
+        line-height: 1.6;
+        margin-bottom: 40px;
+        margin-left: auto
+    }
+
+    #references iframe {
+        margin-left: auto;
+    }
+
+}

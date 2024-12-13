@@ -8,6 +8,6 @@ class HcBackvideoController extends Controller
 {
     public function index()
     {
-        return view('HcBackvideo');
+        return view('home.HcBackvideo');
     }
 }
